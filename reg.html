@@ -1,0 +1,207 @@
+<html>
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#loginn').click(function(){
+                window.location=('main.html')
+            });
+            $('#login').click(function(){
+                window.location="log.html";
+            });
+        });
+        function f1()
+        {
+            window.location = ('main.html');
+        }
+        function f2()
+        {
+            window.location = ('profile.html');
+        }
+        function myFunction() {
+          x = document.getElementById("myInput");
+         if (x.type === "password") {
+         x.type = "text";
+         } else {
+         x.type = "password";
+        }
+    }
+    </script>
+    <style>
+                #mheader
+        {
+            width: 100%;
+            height: 140px;
+            background: #003580;
+        }
+        #logo
+        {
+            float: left;
+            margin-left: 200px;
+            width: 250px;
+            height: 130px;
+        }
+        #plane
+        {
+            float: left;
+            width: 170px;
+            height: 80px;
+            margin-top: 10px
+        }
+        #com
+        {
+            font-family: 'Copperplate' , fantasy;
+            color: #62b5f0;
+            float: left;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        #search
+        {
+            width: 500px;
+            float: left;
+            height: 30px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        #log1
+        {
+            float: right;
+            margin-right: 200px;
+            width: 220px;
+            height: 30px;
+            margin-top: 50px;
+        }
+        #reg
+        {
+            width: 100px;
+            height: 30px;
+            background: #2c6b97;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #reg:hover
+        {
+            background: #2c6b97;
+        }
+        #login
+        {
+            width: 100px;
+            height: 30px;
+            margin-left: 10px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #login:hover
+        {
+            background: #2c6b97;
+        }
+        #exeplore
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #0a2344;
+            border: none;
+            border-right: white 2px solid;
+            cursor: pointer;
+        }
+        #exeplore:hover
+        {
+            background: #2c6b97;
+        }
+        #tours
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #0a2344;
+            border: none;
+            cursor: pointer;
+        }
+        #tours:hover
+        {
+            background: #2c6b97;
+        }
+        .wave {
+                animation-name: wave-animation;
+                animation-duration: 2.5s;       
+                animation-iteration-count: infinite;
+                transform-origin: 70% 70%;       
+                display: inline-block;
+              }
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
+}
+    </style>
+    <body style="background-image: url(images/cover.jpg);background-size: cover;">
+        <div id="mheader" style="position: fixed;">
+            <div id="logo">
+                <img id="plane" src="images/main/plane-icon-png-3.png">
+                <label id="com">.com</label>
+                <input type="button" id="exeplore" value="Explore" onclick="f1()">
+                <input type="button" id="tours" value="My Tours" onclick="f2()">
+            </div>
+            <input type="text" id="search" placeholder="      Tap Here To Search!">
+            <div id="log1">
+                <input type="button" id="reg" value="Register">
+                <input type="button" id="login" value="Log In">
+            </div>
+        </div>
+        <div style="background-color: white; width: 470px;height: 500px; position: absolute; left: 530px; top: 200px;">
+        <div style="color: black;width: 320px;height: 50px; font-size: 25px;position: absolute; top: 30px;left: 90px;">
+            <b>create a new account</b>
+        </div>
+        <div style="height: 50px; width: 50px; border-radius: 50%;position: absolute; top: 30px;">
+            <span class="wave" style="position: absolute; left: 330px; width: 60px; height: 60px ;">👋</span>
+        </div>
+        <div style="width: 320px;height: 80px;position: absolute; left: 70px; top: 80px;">
+            <label>E-mail</label>
+            <br>
+            <input style="width: 290px;height: 30px;" type="email">
+        </div>
+        <div style="width: 320px;height: 80px;position: absolute; left: 70px; top: 140px;">
+            <label>Password</label>
+            <br>
+            <input style="width: 290px;height: 30px;" type="password" id="myInput">
+            <button type="button" onclick="myFunction()" style="border: none; position: absolute;left: 250px;top: 20px; background-color:white;"><img src="images/icons8-eye-25.png"></button>
+        </div>
+        <div style="width: 320px;height: 80px;position: absolute; left: 70px; top: 200px;">
+            <label>First name</label>
+            <br>
+            <input style="width: 290px;height: 30px;" type="text">
+        </div>
+        <div style="width: 320px;height: 80px;position: absolute; left: 70px; top: 260px;">
+            <label>Last name</label>
+            <br>
+            <input style="width: 290px;height: 30px;" type="text">
+        </div>
+        <div style="width: 320px;height: 80px;position: absolute; left: 70px; top: 320px;">
+            <label>Phone</label>
+            <br>
+            <input style="width: 290px;height: 30px;" type="tel">
+        </div>
+        <div style="width: 320px;height: 80px;position: absolute; left: 70px; top: 380px;">
+            <label>Date of birth</label>
+            <br>
+            <input style="width: 290px;height: 30px;" type="date">
+        </div>
+        <input type="button" value="Register" id="loginn" style="position: absolute;top: 450px; left: 300px;">

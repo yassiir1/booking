@@ -1,0 +1,887 @@
+#mheader
+        {
+            width: 100%;
+            height: 550px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #verD
+        {
+            margin-left: 200px;
+             width: 1110px;
+              margin-top: 70px;
+             float: left;
+             height: 0px;
+        }
+        #logo
+        {
+            float: left;
+            margin-left: 200px;
+            width: 250px;
+            height: 70px;
+        }
+        #plane
+        {
+            float: left;
+            width: 170px;
+            height: 80px;
+            margin-top: 10px
+        }
+        #com
+        {
+            font-family: 'Copperplate' , fantasy;
+            color: white;
+            float: left;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        #search
+        {
+            width: 500px;
+            float: left;
+            height: 30px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        #log
+        {
+            float: right;
+            margin-right: 200px;
+            width: 220px;
+            height: 30px;
+            margin-top: 50px;
+        }
+        #reg
+        {
+            width: 100px;
+            height: 30px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #login
+        {
+            width: 100px;
+            height: 30px;
+            margin-left: 10px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #exeplore
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #242424;
+            border: none;
+            border-right: white 2px solid;
+            cursor: pointer;
+        }
+        #exeplore:hover
+        {
+            background: #3d3d3d;
+        }
+        #tours
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #242424;
+            border: none;
+            cursor: pointer;
+        }
+        #tours:hover
+        {
+            background: #3d3d3d;
+        }
+        
+        #body
+        {
+            width: 1110px;
+            margin-left: 200px;
+            height: 250px;
+            margin-top: 10px;
+            background: white;
+            float: left;
+            border-radius: 15px;
+        }
+        #img1
+        {
+            width: 340px;
+            height: 220px;
+            margin-top: 15px;
+            margin-left: 15px;
+            float: left;
+            border-radius: 15px;
+        }
+        #lbls
+        {
+            width: 300px;
+            margin-left: 600px;
+            height: 30px;
+            margin-top: 20px;
+            float: left;
+        }
+        #num1
+        {
+            width: 500px;
+            margin-left: 10px;
+            float: left;
+            height: 215px;
+            margin-top: 15px;
+        }
+        #col
+        {
+            height: 200px; 
+            margin-top: 20px; 
+            margin-left: 10px; 
+            float: left;
+        }
+        #num1r
+        {
+            width: 200px;
+            height: 215px;
+            float: right;
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+        #label1
+        {
+            text-decoration: none;
+            float: left;
+            font-size: 20px; 
+            color: rgb(59, 59, 59); 
+            margin-top: 3px;
+        }
+        #starr
+        {
+            width: 100px; 
+            float: left; 
+            margin-left: 120px;
+        }
+        #btnn
+        {
+            float: left; 
+            width: 100px; 
+            height: 50px; 
+            background: rgb(73, 73, 73); 
+            float: right; 
+            color: white; 
+            margin-top: 5px; 
+            margin-right: 700px; 
+            border: none; 
+            border-radius: 20px;
+        }
+        #price1
+        {
+            cursor: pointer; 
+            background: rgb(58, 111, 228); 
+            color: white; 
+            border: white; 
+            height: 50px; 
+            float: left; 
+            margin-left: 55px; 
+            margin-top: 15px;
+        }
+        #label2
+        {
+            color: rgb(66, 66, 66); 
+            float: left; 
+            font-size: 15px;
+            text-decoration: none;
+        }
+        #label3
+        {
+            float: left;
+            font-size: 17px; 
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+        #label4
+        {
+            float: left; 
+            color: brown; 
+            font-size: 15px; 
+            margin-top: 40px; margin-left: 5px;
+        }
+        #label5
+        {
+            float: left; 
+            font-size: 20px; 
+            margin-left: 10px;
+        }
+        #divv
+        {
+            width:120px; 
+            margin-left: 10px; 
+            float: left; 
+            height:50px; 
+            margin-top: 50px;
+        }
+        #divv2
+        {
+            width: 50px; 
+            margin-left: 5px; 
+            float: left; 
+            height: 45px; 
+            border-radius: 15px; 
+            margin-top: 45px;
+            background: rgb(14, 37, 66); 
+            color: white; 
+            text-align: center;
+        }
+        #label6
+        {
+            font-size: 25px; 
+            margin-top: 10px; 
+            margin-left: 10px; 
+            float: left;
+        }
+        @media only screen and (max-width:1435px)
+        {
+            #mheader
+        {
+            width: 1375px;
+            height: 450px;
+            background-size: cover;
+        }
+            #logo
+        {
+            float: left;
+            margin-left: 100px;
+            width: 250px;
+            height: 70px;
+        }
+        #verD
+        {
+            margin-left: 100px;
+            width: 1180px;
+            margin-top: 70px;
+            float: left;
+            height: 0px;
+
+        }
+        #plane
+        {
+            float: left;
+            width: 170px;
+            height: 80px;
+            margin-top: 10px
+        }
+        #com
+        {
+            font-family: 'Copperplate' , fantasy;
+            color: white;
+            float: left;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        #search
+        {
+            width: 520px;
+            float: left;
+            height: 30px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        #log
+        {
+            float: right;
+            margin-right: 150px;
+            width: 220px;
+            height: 30px;
+            margin-top: 50px;
+        }
+        #reg
+        {
+            width: 100px;
+            height: 30px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #login
+        {
+            width: 100px;
+            height: 30px;
+            margin-left: 10px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #exeplore
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #242424;
+            border: none;
+            border-right: white 2px solid;
+            cursor: pointer;
+        }
+        #exeplore:hover
+        {
+            background: #3d3d3d;
+        }
+        #tours
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #242424;
+            border: none;
+            cursor: pointer;
+        }
+        #tours:hover
+        {
+            background: #3d3d3d;
+        }
+        
+        #body
+        {
+            width: 1000px;
+            margin-left: 200px;
+            height: 200px;
+            margin-top: 10px;
+            background: white;
+            float: left;
+            border-radius: 15px;
+        }
+        #col
+        {
+            height: 100px; 
+            margin-top: 20px; 
+            margin-left: 10px; 
+            float: left;
+        }
+        #img1
+        {
+            width: 300px;
+            height: 170px;
+            margin-top: 15px;
+            margin-left: 15px;
+            float: left;
+            border-radius: 15px;
+        }
+        #starr
+        {
+            width: 80px; 
+            float: left; 
+            margin-left: 50px;
+        }
+        #lbls
+        {
+            width: 300px;
+            margin-left: 550px;
+            height: 30px;
+            margin-top: 20px;
+            float: left;
+            
+        }
+        #num1
+        {
+            width: 400px;
+            margin-left: 10px;
+            float: left;
+            height: 170px;
+            margin-top: 15px;
+            border:none;
+        }
+        #col
+        {
+            height: 150px; 
+            margin-top: 20px; 
+            margin-left: 10px; 
+            float: left;
+        }
+        #num1r
+        {
+            width: 200px;
+            height: 170px;
+            float: right;
+            margin-top: 15px;
+            margin-right: 20px;
+        }
+        #label1
+        {
+            text-decoration: none;
+            float: left;
+            font-size: 19px; 
+            color: rgb(59, 59, 59); 
+            margin-top: 3px;
+        }
+        #btnn
+        {
+            float: left; 
+            width: 100px; 
+            height: 50px; 
+            background: rgb(73, 73, 73); 
+            float: right; 
+            color: white; 
+            margin-top: 5px; 
+            margin-right: 600px; 
+            border: none; 
+            border-radius: 20px;
+        }
+        }
+        @media only screen and (max-width:1050px)
+        {
+            #mheader
+        {
+            width: 1010px;
+            height: 350px;
+            background-size: cover;
+        }
+            #logo
+        {
+            float: left;
+            margin-left: 100px;
+            width: 250px;
+            height: 70px;
+        }
+        #verD
+        {
+            margin-left: 100px;
+            width: 850px;
+            margin-top: 70px;
+            float: left;
+            height: 0px;
+
+        }
+        #plane
+        {
+            float: left;
+            width: 170px;
+            height: 80px;
+            margin-top: 10px
+        }
+        #com
+        {
+            font-family: 'Copperplate' , fantasy;
+            color: white;
+            float: left;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        #search
+        {
+            width: 320px;
+            float: left;
+            height: 30px;
+            margin-top: 50px;
+            margin-left: 60px;
+        }
+        #log
+        {
+            float: right;
+            margin-right: 17px;
+            width: 200px;
+            height: 30px;
+            margin-top: 50px;
+        }
+        #reg
+        {
+            width: 80px;
+            height: 30px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #login
+        {
+            width: 80px;
+            height: 30px;
+            margin-left: 10px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #exeplore
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #242424;
+            border: none;
+            border-right: white 2px solid;
+            cursor: pointer;
+        }
+        #exeplore:hover
+        {
+            background: #3d3d3d;
+        }
+        #tours
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #242424;
+            border: none;
+            cursor: pointer;
+        }
+        #tours:hover
+        {
+            background: #3d3d3d;
+        }
+        
+        #body
+        {
+            width: 1010px;
+            margin-left: 0px;
+            height: 200px;
+            margin-top: 10px;
+            background: white;
+            float: left;
+            border-radius: 15px;
+        }
+        #img1
+        {
+            width: 300px;
+            height: 170px;
+            margin-top: 15px;
+            margin-left: 15px;
+            float: left;
+            border-radius: 15px;
+        }
+        #starr
+        {
+            width: 80px; 
+            float: left; 
+            margin-left: 50px;
+        }
+        #lbls
+        {
+            width: 300px;
+            margin-left: 350px;
+            height: 30px;
+            margin-top: 20px;
+            float: left;
+            
+        }
+        #num1
+        {
+            width: 400px;
+            margin-left: 10px;
+            float: left;
+            height: 170px;
+            margin-top: 15px;
+            border:none;
+        }
+        #num1r
+        {
+            width: 200px;
+            height: 170px;
+            float: right;
+            margin-top: 15px;
+            margin-right: 20px;
+        }
+        #label1
+        {
+            text-decoration: none;
+            float: left;
+            font-size: 19px; 
+            color: rgb(59, 59, 59); 
+            margin-top: 3px;
+        }
+        #btnn
+        {
+            float: left; 
+            width: 100px; 
+            height: 50px; 
+            background: rgb(73, 73, 73); 
+            float: right; 
+            color: white; 
+            margin-top: 5px; 
+            margin-right: 450px; 
+            border: none; 
+            border-radius: 20px;
+        }
+        }
+        @media only screen and (max-width: 500px) and (min-width: 200px)
+        {
+            #mheader
+        {
+            width: 100%;
+            height: 180px;
+            background-size: cover;
+        }
+            #logo
+        {
+            float: left;
+            margin-left: 10px;
+            width: 220px;
+            height: 90px;
+        }
+        #verD
+        {
+            margin-left: 30px;
+            width: 400px;
+            margin-top: 20px;
+            float: left;
+            height: 0px;
+
+        }
+        #plane
+        {
+            float: left;
+            width: 130px;
+            height: 70px;
+            margin-top: 5px
+        }
+        #com
+        {
+            font-family: 'Copperplate' , fantasy;
+            color: white;
+            float: left;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        #search
+        {
+            width: 150px;
+            float: left;
+            height: 30px;
+            margin-top: 125px;
+            margin-left: 80px;
+        }
+        #log
+        {
+            float: right;
+            margin-right: 0px;
+            width: 160px;
+            height: 30px;
+            position: absolute;
+            top: 0px;
+            left: 315px;
+        }
+        #reg
+        {
+            width: 70px;
+            height: 30px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        #login
+        {
+            width: 70px;
+            height: 30px;
+            margin-left: 10px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        #exeplore
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 70px;
+            color: white;
+            font-size: 14px;
+            background: #242424;
+            border: none;
+            border-right: white 2px solid;
+            cursor: pointer;
+        }
+        #exeplore:hover
+        {
+            background: #3d3d3d;
+        }
+        #tours
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 70px;
+            color: white;
+            font-size: 14px;
+            background: #242424;
+            border: none;
+            cursor: pointer;
+        }
+        #tours:hover
+        {
+            background: #3d3d3d;
+        }
+        
+        #body
+        {
+            width: 200px;
+            margin-left: 20px;
+            height: 460px;
+            margin-top: 10px;
+            background: white;
+            float: left;
+            border-radius: 15px;
+        }
+        #img1
+        {
+            width: 200px;
+            height: 170px;
+            margin-top: 0px;
+            margin-left: 0px;
+            float: left;
+            border-radius: 15px;
+        }
+        #starr
+        {
+            width: 80px; 
+            float: left; 
+            margin-left: 50px;
+        }
+        #lbls
+        {
+            width: 300px;
+            margin-left: 60px;
+            height: 30px;
+            margin-top: 10px;
+            float: left;
+            
+        }
+        #num1
+        {
+            width: 180px;
+            margin-left: 10px;
+            float: left;
+            height: 170px;
+            margin-top: 15px;
+            border:none;
+        }
+        #num1r
+        {
+            width: 200px;
+            height: 170px;
+            float: right;
+            margin-top: 15px;
+            margin-right: 20px;
+        }
+        #label1
+        {
+            text-decoration: none;
+            float: left;
+            font-size: 15px; 
+            color: rgb(59, 59, 59); 
+            margin-top: 3px;
+            text-align: center;
+        }
+        #btnn
+        {
+            float: left; 
+            width: 100px; 
+            height: 40px; 
+            background: rgb(73, 73, 73); 
+            float: right; 
+            color: white; 
+            margin-top: 5px; 
+            margin-right: 190px; 
+            border: none; 
+            border-radius: 20px;
+        }
+        #label2
+        {
+            color: rgb(66, 66, 66); 
+            float: left; 
+            font-size: 12px;
+            text-decoration: none;
+        }
+        #label3
+        {
+            float: left;
+            font-size: 14px; 
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        #label4
+        {
+            float: left; 
+            color: brown; 
+            font-size: 13px; 
+            margin-top: 5px; margin-left: 5px;
+        }
+        #col
+        {
+            display: none;
+        }
+        #divv
+        {
+            width:110px; 
+            margin-left: 30px; 
+            float: left; 
+            height:35px; 
+            margin-top: 10px;
+        }
+        #label5
+        {
+            float: left; 
+            font-size: 15px; 
+            margin-left: 20px;
+        }
+        #divv2
+        {
+            width: 35px; 
+            margin-left: 15px; 
+            float: left; 
+            height: 35px; 
+            border-radius: 5px; 
+            margin-top: 8px;
+            background: rgb(14, 37, 66); 
+            color: white; 
+            text-align: center;
+        }
+        #label6
+        {
+            font-size: 15px; 
+            margin-top: 10px;
+            margin-left: 10px; 
+            float: left;
+        }
+        #price1
+        {
+            cursor: pointer; 
+            background: rgb(58, 111, 228); 
+            color: white; 
+            border: white; 
+            height: 30px; 
+            float: left; 
+            margin-left: 80px; 
+            margin-top: 7px;
+            width: 85px;
+            font-size: 13px;
+        }
+        }

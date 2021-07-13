@@ -1,0 +1,176 @@
+<html>
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script>
+       
+
+    </script>
+    <style>
+        #mheader
+        {
+            width: 100%;
+            height: 800px;
+            background: url("images/reserv.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+        #logo
+        {
+            float: left;
+            margin-left: 200px;
+            width: 250px;
+            height: 70px;
+        }
+        #plane
+        {
+            float: left;
+            width: 170px;
+            height: 80px;
+            margin-top: 10px
+        }
+        #com
+        {
+            font-family: 'Copperplate' , fantasy;
+            color: white;
+            float: left;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        #search
+        {
+            width: 500px;
+            float: left;
+            height: 30px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        #log
+        {
+            float: right;
+            margin-right: 200px;
+            width: 220px;
+            height: 30px;
+            margin-top: 50px;
+        }
+        #reg
+        {
+            width: 100px;
+            height: 30px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #login
+        {
+            width: 100px;
+            height: 30px;
+            margin-left: 10px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #exeplore
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #7b8fffea;
+            border: none;
+            border-right: white 2px solid;
+            cursor: pointer;
+        }
+        #exeplore:hover
+        {
+            background: #5b6bc2ea;
+        }
+        #tours
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #7b8fffea;
+            border: none;
+            cursor: pointer;
+        }
+        #tours:hover
+        {
+            background: #5b6bc2ea;
+        }
+        #text
+        {
+            width: 500px;
+            height: 300px;
+            position: absolute;
+            top: 300px;
+            left: 750px;
+        }
+        #reserv
+        {
+            width: 350px;
+            height: 430px;
+            position: absolute;
+            top: 250px;
+            left: 200px;
+            background: white;
+            border-radius: 10px;
+        }
+    </style>
+    <body style="background: rgb(214, 214, 214);">
+        <div id="mheader">
+            <div id="logo">
+                <img id="plane" src="images/main/plane-icon-png-3.png">
+                <label id="com">.com</label>
+               <a href="main.html"> <input type="button" id="exeplore" value="Explore"></a>
+                <input type="button" id="tours" value="My Tours">
+            </div>
+            <input type="text" id="search" placeholder="      Tap Here To Search!">
+            <div id="log">
+                <input type="button" id="reg" value="Register">
+                <input type="button" id="login" value="Log In">
+                
+            </div>
+            <img style="margin-left: 200px; width: 1110px; margin-top: 70px; float: left;" src="images/main/Vertical+Divider.png">
+            <div id="text">
+                <label style="font-family: montserrat,sans-serif; font-weight: bold; font-size: 50px; color: white; cursor: text;">MAKE YOUR RESERVATION</label>
+                <label style="color: white; font-size: 20px; float: left; margin-top: 30px; cursor: text;">Due to the coronavirus (COVID-19), this property is taking steps to protect the safety of guests and staff. Certain services and amenities may be reduced or unavailable as a result.</label>
+            </div>
+            <div id="reserv">
+                <label style="font-family: montserrat,sans-serif; font-size: 17px; font-weight: bold; color: rgb(2, 29, 68); position: absolute; top: 40px; left: 25px;">Your Destination</label>
+                <input style="border: none; background: rgb(228, 226, 226); border-radius: 5px; width: 300px; height: 40px; position: absolute; top: 75px; left: 25px; padding: 6px 12px;" type="text" placeholder="Enter Your Destination !">
+                <label style="font-family: montserrat,sans-serif; font-size: 17px; font-weight: bold; color: rgb(2, 29, 68); position: absolute; top: 140px; left: 25px;">Check In</label>
+                <label style="font-family: montserrat,sans-serif; font-size: 17px; font-weight: bold; color: rgb(2, 29, 68); position: absolute; top: 140px; left: 200px;">Check Out</label>
+                <input style="height: 50px; border: none; width: 120px; color: gray; background: rgb(228, 226, 226); position: absolute; top: 175px; left: 25px; border-radius: 5px; padding: 6px 12px;" type="date">
+                <input style="height: 50px; border: none; width: 120px; color: gray; background: rgb(228, 226, 226); position: absolute; top: 175px; left: 200px; border-radius: 5px; padding: 6px 12px;" type="date">
+                <label style="font-family: montserrat,sans-serif; font-size: 17px; font-weight: bold; color: rgb(2, 29, 68); position: absolute; top: 250px; left: 25px;">Rooms</label>
+                <label style="font-family: montserrat,sans-serif; font-size: 17px; font-weight: bold; color: rgb(2, 29, 68); position: absolute; top: 250px; left: 140px;">Adults</label>
+                <label style="font-family: montserrat,sans-serif; font-size: 17px; font-weight: bold; color: rgb(2, 29, 68); position: absolute; top: 250px; left: 250px;">Children</label>
+                <select style="width: 80px; border-radius: 5px; padding: 6px 8px; height: 35px; border: none; background: rgb(228, 226, 226); position: absolute; top: 280px; left: 25px;">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <select style="width: 80px; border-radius: 5px; padding: 6px 8px; height: 35px; border: none; background: rgb(228, 226, 226); position: absolute; top: 280px; left: 140px;">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <select style="width: 80px; border-radius: 5px; padding: 6px 8px; height: 35px; border: none; background: rgb(228, 226, 226); position: absolute; top: 280px; left: 250px;">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <input type="button" style="position: absolute; top: 350px; left: 25px; cursor: pointer; font-family: montserrat,sans-serif; width: 180px; height: 40px; font-size: 16px; border: none; border-radius: 5px; background: rgb(0, 89, 255); color: white;" value="Check availability">
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,166 @@
+<html>
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#loginn').click(function(){
+                window.location=('main.html')
+            });
+        });
+        function f1()
+        {
+            window.location = ('main.html');
+        }
+        function f2()
+        {
+            window.location = ('profile.html');
+        }
+        function myFunction() {
+          x = document.getElementById("myInput");
+         if (x.type === "password") {
+         x.type = "text";
+         } else {
+         x.type = "password";
+        }
+    }
+    </script>
+    <style>
+                #mheader
+        {
+            width: 100%;
+            height: 140px;
+            background: #003580;
+        }
+        #logo
+        {
+            float: left;
+            margin-left: 200px;
+            width: 250px;
+            height: 130px;
+        }
+        #plane
+        {
+            float: left;
+            width: 170px;
+            height: 80px;
+            margin-top: 10px
+        }
+        #com
+        {
+            font-family: 'Copperplate' , fantasy;
+            color: #62b5f0;
+            float: left;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        #search
+        {
+            width: 500px;
+            float: left;
+            height: 30px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        #log
+        {
+            float: right;
+            margin-right: 200px;
+            width: 220px;
+            height: 30px;
+            margin-top: 50px;
+        }
+        #reg
+        {
+            width: 100px;
+            height: 30px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #reg:hover
+        {
+            background: #2c6b97;
+        }
+        #login
+        {
+            width: 100px;
+            height: 30px;
+            margin-left: 10px;
+            background: white;
+            color: #0a2344;
+            border: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        #login:hover
+        {
+            background: #2c6b97;
+        }
+        #exeplore
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #0a2344;
+            border: none;
+            border-right: white 2px solid;
+            cursor: pointer;
+        }
+        #exeplore:hover
+        {
+            background: #2c6b97;
+        }
+        #tours
+        {
+            float: left;
+            margin-top: 15px;
+            height: 35px;
+            width: 100px;
+            color: white;
+            font-size: 16px;
+            background: #0a2344;
+            border: none;
+            cursor: pointer;
+        }
+        #tours:hover
+        {
+            background: #2c6b97;
+        }
+
+    </style>
+    <body>
+        <div id="mheader">
+            <div id="logo">
+                <img id="plane" src="images/main/plane-icon-png-3.png">
+                <label id="com">.com</label>
+                <input type="button" id="exeplore" value="Explore" onclick="f1()">
+                <input type="button" id="tours" value="My Tours" onclick="f2()">
+            </div>
+            <input type="text" id="search" placeholder="      Tap Here To Search!">
+            <div id="log">
+                <input type="button" id="reg" value="Register">
+                <input type="button" id="login" value="Log In">
+            </div>
+        </div>
+        <div style="color: black;width: 320px;height: 50px; font-size: 25px;position: absolute; top: 180px;left: 580px;">
+            <b>Sign in or create an account</b>
+        </div>
+        <div style="width: 320px;height: 80px;position: absolute; left: 580px; top: 280px;">
+            <label>E-mail</label>
+            <br>
+            <input style="width: 290px;height: 30px;" type="email">
+        </div>
+        <div style="width: 320px;height: 80px;position: absolute; left: 580px; top: 350px;">
+            <label>Password</label>
+            <br>
+            <input style="width: 290px;height: 30px;" type="password" id="myInput">
+            <button type="button" onclick="myFunction()" style="border: none; background-color: white; position: absolute;left: 300px;"><img src="images/icons8-eye-25.png"></button>
+        </div>
+           <a href=""><b style="font-size: 20px; position: absolute;left: 580px;top: 400px;">Forget your password?</b></a>
+           <input type="button" value="Login" id="loginn" style="position: absolute;top: 460px; left: 820px;">
+    </body>
+</html>
