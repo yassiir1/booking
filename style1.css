@@ -1,0 +1,2573 @@
+#mbody
+{
+    width: 100%; height: 3600px;
+}
+#mheader
+{
+    width: 100%;
+    height: 140px;
+    background: #003580;
+}
+#logo
+{
+    float: left;
+    margin-left: 200px;
+    width: 250px;
+    height: 130px;
+}
+#plane
+{
+    float: left;
+    width: 170px;
+    height: 80px;
+    margin-top: 10px
+}
+#com
+{
+    font-family: 'Copperplate' , fantasy;
+    color: #62b5f0;
+    float: left;
+    font-size: 30px;
+    margin-top: 50px;
+}
+#search
+{
+    width: 500px;
+    float: left;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#log
+{
+    float: right;
+    margin-right: 200px;
+    width: 220px;
+    height: 30px;
+    margin-top: 50px;
+}
+#reg
+{
+    width: 100px;
+    height: 30px;
+    background: white;
+    color: #0a2344;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+#login
+{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    background: white;
+    color: #003580;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+#exeplore
+{
+    float: left;
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    background: #003580;
+    border: none;
+    border-right: white 2px solid;
+    cursor: pointer;
+    
+}
+#exeplore:hover
+{
+    background: #2c6b97;
+}
+#tours
+{
+    float: left;
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-size: 16px;
+    background: #003580;
+    border: none;
+    cursor: pointer;
+}
+#tours:hover
+{
+    background: #2c6b97;
+}
+#left
+{
+    width: 300px;
+    height: 2000px;
+    float: left;
+}
+#body
+{
+    width: 950px;
+    height: 3300px;
+    float: left;
+    margin-left: 20px;
+}
+#hbody
+{
+    width: 950px;
+    height: 90px;
+    float: left;
+    
+}
+#imgs
+{
+    width: 950px;
+    height: 400px;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+#content1
+{
+    width: 600px;
+    height: 800px;
+    float: left;
+    margin-top: 10px;
+}
+#tbl1
+{
+    width: 950px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#beach1
+{
+    width: 470px;
+    height: 150px;
+    float: left;
+    border: gray 1px solid;
+}
+#beach2
+{
+    width: 470px;
+    float: left;
+    border: gray 1px solid;
+    height: 150px;
+    position: absolute;
+    top: 1966px;
+    left: 810px;
+}
+#cat
+{
+    width: 950px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    top: 2290px;
+}
+#chekin
+{
+    float: left; 
+    height: 480px; 
+    width: 300px; 
+    background: #febb02; 
+    margin-top: 100px; 
+    position: fixed;
+}
+
+#label1
+{
+    font-size: 30px; 
+    float: left; 
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; 
+    font-weight: 600; 
+    position: absolute; 
+    top: 15px; 
+    left: 15px;
+}
+#label2
+{
+    float: left; 
+    position: absolute; 
+    top: 60px;
+    left: 18px;
+}
+#inpt1
+{
+    border: none; 
+    height: 40px; 
+    width: 250px; 
+    float: left; 
+    position: absolute; 
+    top: 80px;
+    left: 18px;
+}
+#label3
+{
+    float: left; 
+    position: absolute; 
+    top: 140px; 
+    left: 20px;
+}
+#start5
+{
+    width: 250px; 
+    height: 40px; 
+    position: absolute; 
+    top: 165px;
+    left: 18px;
+}
+#label4{
+    float: left; 
+    position: absolute; 
+    top: 220px; 
+    left: 20px;
+}
+#end5
+{
+    height: 40px; 
+    width: 250px; 
+    position: absolute; 
+    top: 245px; 
+    left: 18px;
+}
+#chekk
+{
+    width: 15px;
+     position: absolute;
+      top: 370px; 
+      left: 18px; 
+      height: 15px;
+}
+#label5
+{
+    float: left; position: absolute; top: 370px; left: 40px;
+}
+#search2
+{
+    width: 250px; height: 50px; position: absolute; top: 405px; left: 25px; background: #003580; border: none; color: white; font-size: 22px; cursor: pointer;
+}
+#hotell
+{
+    margin-top: 5px; width: 50px; height: 20px; float: left; background: gray; color: white; text-align: center;
+}
+#h1
+{
+    float: left; font-size: 25px;; margin-left: 10px; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; font-weight: bold;
+}
+#starr
+{
+    width: 90px; margin-left: 10px; height: 30px; float: left;
+}
+#btn1
+{
+    cursor: pointer; width: 70px; height: 35px; float: right; border: none; color: white; background: rgb(74, 74, 197); margin-top: 30px;
+}
+#logoo
+{
+    float: left; position: absolute; top: 185px; left: 350px;
+}
+#beachf
+{
+    background: rgb(144, 144, 255); width: 190px; text-align: center; margin: auto; border-radius: 5px; height: 20px; position: absolute; top: 185px; left: 395px; color: white;
+}
+#loc
+{
+    width: 30px; height: 25px; float: left; position: absolute; top: 215px; left: 347px;
+}
+#label6
+{
+    position: absolute; top: 215px; left: 395px; float: left; cursor: text;
+}
+#img1
+{
+    width: 100%; height: 100%; position: absolute;
+}
+
+#h2
+{
+    font-size: 20px; float: left; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#p1
+{
+    font-size: 20px; color: rgb(236, 65, 2); float: left; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#p2
+{
+    float: left; font-size: 18px;
+}
+#p3
+{
+    float: left; font-size: 20; color: rgb(236, 65, 2); margin-top: 30px; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#services
+{
+    width: 500px; height: 80px; float: left;
+}
+#dumb
+{
+    float: left; height: 30px; width: 25px;
+}
+#label7
+{
+    margin-top: 5px; margin-left: 5px; float: left;
+}
+#sstar
+{
+    margin-left: 15px; float: left; height: 25px; width: 20px;
+}
+#label8
+{
+    margin-left: 5px; margin-top: 5px; float: left;
+}
+#bell
+{
+    float: left; height: 25px; margin-left: 15px; width: 20px;
+}
+#label9
+{
+    margin-left: 5px; margin-top: 5px; float: left;
+}
+#spoon
+{
+    display: none;
+}
+#label10
+{
+    margin-left: 5px; margin-top: 5px; float: left;
+}
+#beaach
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1420px; left: 340px;
+}
+#label11
+{
+    float: left; margin-top: 5px; position: absolute; top: 1415px; left: 370px;
+}
+#wifi
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1417px; left: 450px;
+}
+#label12
+{
+    float: left; margin-left: 5px; position: absolute; top: 1420px; left: 470px;
+}
+#barr
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1417px; left: 550px;
+}
+#label13
+{
+    float: left; position: absolute; top: 1420px; left: 575px;
+}
+#cup
+{
+    float: left; height: 30px; width: 20px; position: absolute; top: 1410px; left: 610px;
+}
+#label14
+{
+    float: left; position: absolute; top: 1420px; left: 635px;
+}
+#tr1
+{
+    background: rgb(102, 102, 255); color: white; height: 50px;
+}
+#td1
+{
+    background: rgb(102, 102, 255); color: white; height: 50px;
+}
+#td2
+{
+    width: 250px; border-right: solid 2px rgb(183, 183, 255);
+}
+#td3
+{
+    border-right: solid 2px rgb(183, 183, 255);
+}
+#td4
+{
+    border-right: solid 2px rgb(183, 183, 255);
+}
+#td5
+{
+    border-right: solid 2px rgb(183, 183, 255);
+}
+#td
+{
+    width: 150px; border-right: solid 2px rgb(183, 183, 255); height: 70px;
+}
+#person1
+{
+    float: left; width: 25px; height: 30px;
+}
+#arrow
+{
+    width: 10px; height: 10px; float: left; margin-left: 10px; margin-top: 15px;
+}
+#label15
+{
+    float: left; color: rgb(68, 66, 65); margin-top: 10px; margin-left: 10px; 
+}
+#labl1
+{
+    float: left; color: rgb(68, 66, 65); margin-top: 10px; margin-left: 10px; 
+}
+#label16
+{
+    float: left; margin-top: 15px; margin-left: 30px; cursor:text;
+}
+#bed1
+{
+    width: 20px; margin-left: 10px; margin-top: 10px; height: 30px; float: left;
+}
+#label17
+{
+    float: left; position: absolute; left: 515px; margin-top: 20px; cursor:text;
+}
+#bed2
+{
+    width: 50px; margin-left: 10px; margin-top: 15px; height: 30px; float: left;
+}
+#label18
+{
+    float: left; color: rgb(68, 66, 65); margin-top: 0px; margin-left: 10px; 
+
+}
+#arrow1
+{
+    width: 10px; height: 10px; float: left; margin-left: 10px; margin-top: 5px;
+}
+#label19
+{
+    float: left; position: absolute; left: 515px; margin-top: 30px; cursor:text;
+
+}
+#arrow2
+{
+    width: 10px; height: 10px; float: left; margin-left: 10px; margin-top: -35px;
+
+}
+#label20
+{
+    float: left; color: rgb(68, 66, 65); position: absolute; top: 1740px; left: 515px; 
+
+}
+#label21
+{
+    float: left; color: rgb(68, 66, 65); position: absolute; top: 1830px; left: 515px; 
+
+}
+#pricee
+{
+    height: 100%; width: 100%; cursor: pointer; border: none; color: white; background: rgb(102, 102, 255);
+}
+#bed3
+{
+    width: 50px; position: absolute; top: 1760px; left: 680px; height: 30px; float: left;
+}
+#bed4{
+    width: 20px; position: absolute; top: 1785px; left: 680px; height: 30px; float: left;
+}
+#bed5{
+    width: 20px; position: absolute; top: 1785px; left: 705px; height: 30px; float: left;
+}
+#label22
+{
+    float: left;position: absolute; top: 1765px; left: 515px; cursor:text;
+}
+#label23
+{
+    float: left;position: absolute; top: 1790px; left: 515px; cursor:text;
+}
+#label24
+{
+    float: left;position: absolute; top: 1855px; left: 515px; cursor:text;
+}
+#bed6
+{
+    width: 20px; position: absolute; top: 1850px; left: 600px; height: 30px; float: left;
+}
+#bed7
+{
+    width: 20px; position: absolute; top: 1850px; left: 625px; height: 30px; float: left;
+}
+#hh1
+{
+    float: left; font-size: 27.5px; font-family: monospace; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#hh2
+{
+    font-family: monospace; font-size: 20px; margin-left: 10px;
+    
+}
+#hh3
+{
+    float: left; font-size: 27.5px; font-family: monospace; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+
+}
+#pp1
+{
+    float: left; margin-left: 10px; font-size: 17px;
+}
+#revi
+{
+    float: left; background: rgb(53, 194, 53); border-radius: 10px; color: white; text-align: center; width: 40px; height: 40px; position: absolute; top: 2200px; left: 335px;
+}
+#label25
+{
+    cursor: pointer; float: left; font-size: 15px; position: absolute; top: 2205px; left: 390px; font-size: 20px;
+}
+#label26
+{
+    color: rgb(139, 137, 137); cursor: pointer;
+}
+#label27
+{
+    cursor: pointer; color: rgb(47, 47, 126); font-family:cursive ;
+}
+#label28
+{
+    float: left; position: absolute; top: 2260px; left: 340px; font-size: 20px;
+}
+#label29
+{
+    font-size: 18px; color: rgb(82, 82, 143); margin-left: 20px; cursor: pointer;
+}
+#ddivv
+{
+    float: left;  height: 50px; width:300px; margin-left: 10px; margin-top: 10px;
+}
+#revv1
+{
+    font-size: 20px; margin-top: 10px; margin-left: 8px; float: left;
+}
+#menuu
+{
+    float: left;
+}
+#fdivv
+{
+    float: left; width: 270px; height: 15px; border-radius: 10px; background: rgb(203, 242, 255); margin-top: 5px;
+}
+#fdivv1
+{
+    float: left; width: 250px; height: 15px; border-radius: 10px; background: rgb(112, 224, 112);
+}
+#fdivv2
+{
+    float: left; width: 240px; height: 15px; border-radius: 10px; background: rgb(112, 224, 112);
+}
+#fdivv3
+{
+    float: left; width: 245px; height: 15px; border-radius: 10px; background: rgb(112, 224, 112);
+}
+#fdivv4
+{
+    float: left; width: 245px; height: 15px; border-radius: 10px; background: rgb(112, 224, 112);
+}
+#fdivv5
+{
+    float: left; width: 238px; height: 15px; border-radius: 10px; background: rgb(112, 224, 112);
+}
+#fdivv6
+{
+    float: left; width: 265px; height: 15px; border-radius: 10px; background: rgb(112, 224, 112);
+}
+#fdivv7
+{
+    float: left; width: 240px; height: 15px; border-radius: 10px; background: rgb(112, 224, 112);
+}
+#revv2
+{
+    float: left; margin-left: 5px; margin-top: 5px;
+}
+#text1
+{
+    float: left; font-size: 18px; margin-top: 15px; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#headerr
+{
+    width: 950px; height: 350px;  float: left; position: absolute; top: 2500px;
+}
+#boxx1
+{
+    float: left; width: 310px; height: 300px; border: 1px solid rgb(185, 184, 184); position: absolute; top: 50px;
+}
+#boxx2
+{
+    float: left; width: 310px; height: 300px; border: 1px solid rgb(185, 184, 184); position: absolute; top: 50px; left: 320px;
+}
+#boxx3
+{
+    float: left; width: 310px; height: 300px; border: 1px solid rgb(185, 184, 184); position: absolute; top: 50px; left: 640px;
+}
+#circle
+{
+    border-radius: 50%; width: 50px; height: 50px; background: rgb(25, 122, 250); margin-top: 30px; margin-left: 10px; float: left;
+}
+#alpha
+{
+    float: left; text-align: center; margin-top: 12px; margin-left: 17px; font-size: 25px; color: white;
+}
+#address
+{
+    float: left; width: 95px; height: 40px;  margin-top: 35px; margin-left: 10px;
+}
+#namee
+{
+    float: left; font-size: 15px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#flag
+{
+    float: left; position: absolute; top: 60px;left: 73px;
+}
+#country
+{
+    float: left; font-size: 13px; margin-left: 25px; margin-top: 4px;
+}
+#textbox
+{
+    width: 250px;  float: left; height: 200px; margin-top: 30px;
+}
+#text2
+{
+    font-size: 20px; color: gray; position: absolute; left: 5px;
+}
+#ress
+{
+    position: absolute; top: 2900px; float: left; width: 950px; height: 70px;
+}
+#spoon
+{
+    float: left; width: 30px; height: 30px; margin-top: 20px;
+}
+#text3
+{
+    float: left; margin-top: 18px; font-weight: bold; margin-left: 15px; font-size: 25px; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#places
+{
+    position: absolute; top: 2980px; float: left; width: 950px; height: 350px;
+}
+#box1
+{
+    width: 310px; height: 160px; background: rgb(235, 246, 252); float: left;  margin-top: 5px; margin-left: 5px; border-radius: 10px;
+}
+#text4
+{
+    font-family: 'Copperplate' , fantasy; float: left; font-size: 20px; margin-left: 10px; margin-top: 15px;
+}
+#text5
+{
+    float: left; font-size: 17px; position: absolute; top: 50px; left: 10px;
+}
+#text6
+{
+    float: left; font-size: 17px; position: absolute; top: 80px; left: 10px;
+}
+#text7{
+    float: left; font-size: 17px; position: absolute; top: 110px; left: 10px;
+}
+#text8
+{
+    float: left; font-size: 17px; position: absolute; top: 50px; left: 330px;
+}
+#text9
+{
+    float: left; font-size: 17px; position: absolute; top: 80px; left: 330px;
+}
+#text10
+{
+    float: left; font-size: 17px; position: absolute; top: 50px; left: 650px;
+}
+#text11
+{
+    float: left; font-size: 17px; position: absolute; top: 80px; left: 650px;
+}
+#text12
+{
+    float: left; font-size: 17px; position: absolute; top: 220px; left: 10px;
+}
+#text13
+{
+    float: left; font-size: 17px; position: absolute; top: 250px; left: 10px;
+}
+#text14
+{
+    float: left; font-size: 17px; position: absolute; top: 280px; left: 10px;
+}
+#text15
+{
+    float: left; font-size: 17px; position: absolute; top: 220px; left: 330px;
+}
+#text16
+{
+    float: left; font-size: 17px; position: absolute; top: 250px; left: 330px;
+}
+#text17
+{
+    float: left; font-size: 17px; position: absolute; top: 280px; left: 330px;
+}
+#check
+{
+    width: 170px; position: absolute; top: 3350px; left: 1115px; cursor: pointer; height: 50px; text-align: center; float: left; border: none; color: white; font-size: 16px; border: none; background: rgb(0, 119, 255);
+}
+@media only screen and (max-width: 1435px) and (min-width: 1285px)
+{
+    #mheader
+    {
+        width: 100%;
+        height: 140px;
+        background: #003580;
+    }
+    #logo
+    {
+        float: left;
+        margin-left: 150px;
+        width: 230px;
+        height: 130px;
+    }
+    #plane
+    {
+        float: left;
+        width: 160px;
+        height: 80px;
+        margin-top: 10px
+    }
+    #com
+    {
+        font-family: 'Copperplate' , fantasy;
+        color: #62b5f0;
+        float: left;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #search
+    {
+        width: 400px;
+        float: left;
+        height: 30px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    #log
+    {
+        float: right;
+        margin-right: 100px;
+        width: 220px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    #reg
+    {
+        width: 80px;
+        height: 30px;
+        background: white;
+        color: #0a2344;
+        border: none;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    #login
+    {
+        width: 80px;
+        height: 30px;
+        margin-left: 10px;
+        background: white;
+        color: #003580;
+        border: none;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    #exeplore
+    {
+        float: left;
+        margin-top: 15px;
+        height: 35px;
+        width: 80px;
+        color: white;
+        font-size: 16px;
+        background: #003580;
+        border: none;
+        border-right: white 2px solid;
+        cursor: pointer;
+        
+    }
+    #exeplore:hover
+    {
+        background: #2c6b97;
+    }
+    #tours
+    {
+        float: left;
+        margin-top: 15px;
+        height: 35px;
+        width: 80px;
+        color: white;
+        font-size: 16px;
+        background: #003580;
+        border: none;
+        cursor: pointer;
+    }
+    #tours:hover
+    {
+        background: #2c6b97;
+    }
+    #left
+{
+    width: 250px;
+    height: 2000px;
+    float: left;
+}
+#chekin
+{
+    float: left; 
+    height: 480px; 
+    width: 250px; 
+    background: #febb02; 
+    margin-top: 100px; 
+    position: fixed;
+}
+#inpt1
+{
+    border: none; 
+    height: 40px; 
+    width: 220px; 
+    float: left; 
+    position: absolute; 
+    top: 80px;
+    left: 18px;
+}
+#start5
+{
+    width: 220px; 
+    height: 40px; 
+    position: absolute; 
+    top: 165px;
+    left: 18px;
+}
+#end5
+{
+    height: 40px; 
+    width: 220px; 
+    position: absolute; 
+    top: 245px; 
+    left: 18px;
+}
+#search2
+{
+    width: 205px; height: 50px; position: absolute; top: 405px; left: 25px; background: #003580; border: none; color: white; font-size: 22px; cursor: pointer;
+}
+#beaach
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1420px; left: 280px;
+}
+#label11
+{
+    float: left; margin-top: 5px; position: absolute; top: 1415px; left: 310px;
+}
+#wifi
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1417px; left: 415px;
+}
+#label12
+{
+    float: left; margin-left: 5px; position: absolute; top: 1420px; left: 445px;
+}
+#label17
+{
+    float: left; position: absolute; left: 465px; margin-top: 20px; cursor:text;
+}
+#label19
+{
+    float: left; position: absolute; left: 465px; margin-top: 30px; cursor:text;
+}
+#bed2
+{
+    width: 50px; margin-left: 10px; margin-top: 20px; height: 30px; float: left;
+}
+#label20
+{
+    float: left; color: rgb(68, 66, 65); position: absolute; top: 1740px; left: 465px; 
+
+}
+#bed3
+{
+    width: 35px; position: absolute; top: 1760px; left: 630px; height: 30px; float: left;
+}
+#bed4{
+    width: 20px; position: absolute; top: 1785px; left: 625px; height: 30px; float: left;
+}
+#bed5{
+    width: 20px; position: absolute; top: 1785px; left: 655px; height: 30px; float: left;
+}
+#label22
+{
+    float: left;position: absolute; top: 1765px; left: 465px; cursor:text;
+}
+#label23
+{
+    float: left;position: absolute; top: 1790px; left: 465px; cursor:text;
+}
+#arrow
+{
+    width: 10px; height: 10px; float: left; margin-left: 10px; margin-top: 15px;
+}
+#label21
+{
+    float: left; color: rgb(68, 66, 65); position: absolute; top: 1830px; left: 465px; 
+}
+#label24
+{
+    float: left;position: absolute; top: 1855px; left: 465px; cursor:text;
+}
+#bed6
+{
+    width: 20px; position: absolute; top: 1850px; left: 550px; height: 30px; float: left;
+}
+#bed7
+{
+    width: 20px; position: absolute; top: 1850px; left: 580px; height: 30px; float: left;
+}
+#beach1
+{
+    width: 430px;
+    height: 150px;
+    float: left;
+    border: gray 1px solid;
+}
+#beach2
+{
+    width: 430px;
+    float: left;
+    border: gray 1px solid;
+    height: 150px;
+    position: absolute;
+    top: 1970px;
+    left: 750px;
+}
+}
+@media only screen and (max-width: 1284px) and (min-width: 1202px)
+{
+    #mheader
+    {
+        width: 1325px;
+        height: 140px;
+        background: #003580;
+    }
+    #logo
+    {
+        float: left;
+        margin-left: 120px;
+        width: 215px;
+        height: 135px;
+    }
+    #plane
+    {
+        float: left;
+        width: 150px;
+        height: 70px;
+        margin-top: 10px
+    }
+    #com
+    {
+        font-family: 'Copperplate' , fantasy;
+        color: #62b5f0;
+        float: left;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    #search
+    {
+        width: 400px;
+        float: left;
+        height: 30px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    #log
+    {
+        float: right;
+        margin-right: 100px;
+        width: 220px;
+        height: 30px;
+        margin-top: 50px;
+    }
+    #reg
+    {
+        width: 80px;
+        height: 30px;
+        background: white;
+        color: #0a2344;
+        border: none;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    #login
+    {
+        width: 80px;
+        height: 30px;
+        margin-left: 10px;
+        background: white;
+        color: #003580;
+        border: none;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    #exeplore
+    {
+        float: left;
+        margin-top: 15px;
+        height: 35px;
+        width: 80px;
+        color: white;
+        font-size: 16px;
+        background: #003580;
+        border: none;
+        border-right: white 2px solid;
+        cursor: pointer;
+        
+    }
+    #exeplore:hover
+    {
+        background: #2c6b97;
+    }
+    #tours
+    {
+        float: left;
+        margin-top: 15px;
+        height: 35px;
+        width: 80px;
+        color: white;
+        font-size: 16px;
+        background: #003580;
+        border: none;
+        cursor: pointer;
+    }
+    #body
+{
+    width: 750px;
+    height: 3400px;
+    float: left;
+    margin-left: 80px;
+}
+#hbody
+{
+    width: 750px;
+    height: 90px;
+    float: left;
+}
+#imgs
+{
+    width: 750px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+#left
+{
+    width: 300px;
+    height: 2000px;
+    float: left;
+}
+#logoo
+{
+    float: left; position: absolute; top: 180px; left: 395px;
+}
+#beachf
+{
+    background: rgb(144, 144, 255); width: 190px; text-align: center; margin: auto; border-radius: 5px; height: 20px; position: absolute; top: 185px; left: 430px; color: white;
+}
+#loc
+{
+    width: 30px; height: 25px; float: left; position: absolute; top: 215px; left: 395px;
+}
+#label6
+{
+    position: absolute; top: 215px; left: 430px; float: left; cursor: text;
+}
+#img1
+{
+    width: 100%; height: 100%; position: absolute;
+}
+#spoon
+{
+    float: left; height: 25px; width: 25px; margin-left: 15px;
+    position: absolute; 
+    top: 1300px;
+}
+#label10
+{
+    margin-left: 50px; margin-top: 5px; float: left;
+}
+#beaach
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1370px; left: 390px;
+}
+#label11
+{
+    float: left; margin-top: 5px; position: absolute; top: 1368px; left: 420px;
+}
+#wifi
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1370px; left: 510px;
+}
+#label12
+{
+    float: left; margin-left: 5px; position: absolute; top: 1375px; left: 545px;
+}
+#barr
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1370px; left: 630px;
+}
+#label13
+{
+    float: left; position: absolute; top: 1375px; left: 660px;
+}
+#cup
+{
+    float: left; height: 30px; width: 20px; position: absolute; top: 1365px; left: 700px;
+}
+#label14
+{
+    float: left; position: absolute; top: 1375px; left: 730px;
+}
+#tbl1
+{
+    width: 750px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#arrow
+{
+    display: none;
+}
+#person1
+{
+    float: left; width: 30px; height: 30px;
+}
+#label16
+{
+    float: left; margin-top: 15px; margin-left: 15px; cursor:text;
+}
+#arrow1
+{
+display: none;
+}
+#arrow2
+{
+display: none;
+}
+#bed2, #bed1,#bed3,#bed4,#bed5,#bed6,#bed7
+{
+    display: none;
+}
+#labl1
+{
+    float: left; color: rgb(68, 66, 65); margin-top: -15px; margin-left: 50px; 
+}
+#label17
+{
+    float: left; position: absolute; left: 510px; margin-top: -5px; cursor:text;
+}
+#label18
+{
+    float: left; color: rgb(68, 66, 65); margin-top: -25px; margin-left: 35px; 
+
+}
+#label19
+{
+    float: left; position: absolute; left: 515px; margin-top: 5px; cursor:text;
+}
+#label20
+{
+    float: left; color: rgb(68, 66, 65); position: absolute; top: 1710px; left: 515px; 
+}
+#label22
+{
+    float: left;position: absolute; top: 1735px; left: 505px; cursor:text;
+}
+#label23
+{
+    float: left;position: absolute; top: 1760px; left: 505px; cursor:text;
+}
+#label21
+{
+    float: left; color: rgb(68, 66, 65); position: absolute; top: 1800px; left: 530px; 
+}
+#label24
+{
+    float: left;position: absolute; top: 1830px; left: 505px; cursor:text;
+}
+#hh1
+{
+    float: left; font-size: 25.5px; font-family: monospace; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#beach1
+{
+    width: 360px;
+    height: 150px;
+    float: left;
+    border: gray 1px solid;
+}
+#beach2
+{
+    width: 360px;
+    float: left;
+    border: gray 1px solid;
+    height: 150px;
+    position: absolute;
+    top: 1925px;
+    left: 770px;
+}
+#hh3
+{
+    float: left; font-size: 27.5px; font-family: monospace; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    position: absolute; top: 2080px;
+
+}
+#revi
+{
+    float: left; background: rgb(53, 194, 53); border-radius: 10px; color: white; text-align: center; width: 40px; height: 40px; position: absolute; top: 2160px; left: 400px;
+}
+#label25
+{
+    cursor: pointer; float: left; font-size: 15px; position: absolute; top: 2165px; left: 460px; font-size: 20px;
+}
+#label28
+{
+    float: left; position: absolute; top: 2220px; left: 410px; font-size: 20px;
+}
+#cat
+{
+    width: 750px;
+    height: 250px;
+    float: left;
+    position: absolute;
+    top: 2250px;
+}
+#headerr
+{
+    width: 750px; height: 350px;  float: left; position: absolute; top: 2500px;
+    overflow: hidden;
+}
+#places
+{
+    position: absolute; top: 2980px; float: left; width: 750px; height: 350px;
+}
+#text10
+{
+    float: left; font-size: 17px; position: absolute; top: 390px; left: 15px;
+}
+#text11
+{
+    float: left; font-size: 17px; position: absolute; top: 430px; left: 15px;
+}
+#check
+{
+    width: 170px; position: absolute; top: 3500px; left: 970px; cursor: pointer; height: 50px; text-align: center; float: left; border: none; color: white; font-size: 16px; border: none; background: rgb(0, 119, 255);
+}
+}
+@media only screen and (max-width: 1202px) and (min-width: 1024px)
+{
+    
+    #mheader
+    {
+        width: 1246px;
+        height: 140px;
+        background: #003580;
+    }
+    #logo
+    {
+        float: left;
+        margin-left: 80px;
+        width: 215px;
+        height: 135px;
+    }
+    #plane
+    {
+        float: left;
+        width: 150px;
+        height: 70px;
+        margin-top: 10px
+    }
+    #com
+    {
+        font-family: 'Copperplate' , fantasy;
+        color: #62b5f0;
+        float: left;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    #search
+    {
+        width: 330px;
+        float: left;
+        height: 30px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    #left
+    {
+        width: 250px;
+        height: 2000px;
+        float: left;
+        overflow: hidden;
+    }
+    #chekin
+    {
+    float: left; 
+    height: 480px; 
+    width: 250px; 
+    background: #febb02; 
+    margin-top: 100px; 
+    position: fixed;
+    
+    }   
+    #inpt1
+{
+    border: none; 
+    height: 40px; 
+    width: 220px; 
+    float: left; 
+    position: absolute; 
+    top: 80px;
+    left: 18px;
+}
+#start5
+{
+    width: 220px; 
+    height: 40px; 
+    position: absolute; 
+    top: 165px;
+    left: 18px;
+}
+#end5
+{
+    height: 40px; 
+    width: 220px; 
+    position: absolute; 
+    top: 245px; 
+    left: 18px;
+}
+#search2
+{
+    width: 205px; height: 50px; position: absolute; top: 405px; left: 25px; background: #003580; border: none; color: white; font-size: 22px; cursor: pointer;
+}
+    #body
+    {
+        width: 710px;
+        height: 3400px;
+        float: left;
+        margin-left: 50px;
+    }
+    #hbody
+{
+    width: 710px;
+    height: 90px;
+    float: left;
+}
+#imgs
+{
+    width: 710px;
+    height: 350px;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+#logoo
+{
+    float: left; position: absolute; top: 185px; left: 330px;
+}
+#beachf
+{
+    background: rgb(144, 144, 255); width: 190px; text-align: center; margin: auto; border-radius: 5px; height: 20px; position: absolute; top: 190px; left: 380px; color: white;
+}
+#loc
+{
+    width: 30px; height: 25px; float: left; position: absolute; top: 210px; left: 330px;
+}
+#label6
+{
+    position: absolute; top: 215px; left: 380px; float: left; cursor: text;
+}
+#log
+{
+    float: right;
+    margin-right: 70px;
+    width: 220px;
+    height: 30px;
+    margin-top: 50px;
+}
+#img1
+{
+    width: 100%; height: 100%; position: absolute;
+}
+#spoon
+{
+    float: left; height: 25px; width: 25px; margin-left: 15px;
+    position: absolute; 
+    top: 1300px;
+}
+#label10
+{
+    margin-left: 50px; margin-top: 5px; float: left;
+}
+#beaach
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1370px; left: 315px;
+}
+#label11
+{
+    float: left; margin-top: 5px; position: absolute; top: 1368px; left: 345px;
+}
+#wifi
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1370px; left: 430px;
+}
+#label12
+{
+    float: left; margin-left: 5px; position: absolute; top: 1375px; left: 465px;
+}
+#barr
+{
+    float: left; height: 25px; width: 20px; position: absolute; top: 1370px; left: 550px;
+}
+#label13
+{
+    float: left; position: absolute; top: 1375px; left: 580px;
+}
+#cup
+{
+    float: left; height: 30px; width: 20px; position: absolute; top: 1365px; left: 630px;
+}
+#label14
+{
+    float: left; position: absolute; top: 1375px; left: 670px;
+}
+#tbl1
+{
+    width: 710px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#arrow
+{
+    display: none;
+}
+#person1
+{
+    float: left; width: 20px; height: 30px;
+}
+#label16
+{
+    float: left; margin-top: 15px; margin-left: 15px; cursor:text;
+}
+#arrow1
+{
+display: none;
+}
+#arrow2
+{
+display: none;
+}
+#bed2, #bed1,#bed3,#bed4,#bed5,#bed6,#bed7
+{
+    display: none;
+}
+#label16
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#label15
+{
+    margin-left: 0px;
+}
+#labl1
+{
+    float: left; color: rgb(68, 66, 65); margin-top: -15px; margin-left: 10px; 
+}
+#label17
+{
+    float: left; position: absolute; left: 450px; margin-top: -5px; cursor:text;
+}
+#label18
+{
+    float: left; color: rgb(68, 66, 65); margin-top: -25px; margin-left: 10px; 
+
+}
+#label19
+{
+    float: left; position: absolute; left: 450px; margin-top: 5px; cursor:text;
+}
+#label20
+{
+    float: left; color: rgb(68, 66, 65); position: absolute; top: 1710px; left: 450px; 
+}
+#label22
+{
+    float: left;position: absolute; top: 1735px; left: 430px; cursor:text;
+    font-size: 15px;
+}
+#label23
+{
+    float: left;position: absolute; top: 1760px; left: 430px; cursor:text; font-size: 15px;
+
+}
+#label21
+{
+    float: left; color: rgb(68, 66, 65); position: absolute; top: 1800px; left: 450px; 
+}
+#label24
+{
+    float: left;position: absolute; top: 1830px; left: 450px; cursor:text;
+}
+#td1
+{
+    width: 230px;
+}
+#td2
+{
+    width: 290px;
+}
+#hh1
+{
+    float: left; font-size: 25.5px; font-family: monospace; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#beach1
+{
+    width: 350px;
+    height: 150px;
+    float: left;
+    border: gray 1px solid;
+}
+#beach2
+{
+    width: 350px;
+    float: left;
+    border: gray 1px solid;
+    height: 150px;
+    position: absolute;
+    top: 1920px;
+    left: 670px;
+}
+#hh3
+{
+    float: left; font-size: 27.5px; font-family: monospace; font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    position: absolute; top: 2080px;
+
+}
+#revi
+{
+    float: left; background: rgb(53, 194, 53); border-radius: 10px; color: white; text-align: center; width: 40px; height: 40px; position: absolute; top: 2160px; left: 400px;
+}
+#label25
+{
+    cursor: pointer; float: left; font-size: 15px; position: absolute; top: 2165px; left: 460px; font-size: 20px;
+}
+#label28
+{
+    float: left; position: absolute; top: 2220px; left: 410px; font-size: 20px;
+}
+#revi
+{
+    float: left; background: rgb(53, 194, 53); border-radius: 10px; color: white; text-align: center; width: 40px; height: 40px; position: absolute; top: 2160px; left: 320px;
+}
+#label25
+{
+    cursor: pointer; float: left; font-size: 15px; position: absolute; top: 2165px; left: 390px; font-size: 20px;
+}
+#label28
+{
+    float: left; position: absolute; top: 2220px; left: 320px; font-size: 20px;
+}
+#cat
+{
+    width: 710px;
+    height: 250px;
+    float: left;
+    position: absolute;
+    top: 2250px;
+}
+#headerr
+{
+    width: 710px; height: 350px;  float: left; position: absolute; top: 2500px;
+    overflow: hidden;
+}
+#places
+{
+    position: absolute; top: 2980px; float: left; width: 710px; height: 350px;
+}
+#text10
+{
+    float: left; font-size: 17px; position: absolute; top: 390px; left: 15px;
+}
+#text11
+{
+    float: left; font-size: 17px; position: absolute; top: 430px; left: 15px;
+}
+#check
+{
+    width: 170px; position: absolute; top: 3500px; left: 855px; cursor: pointer; height: 50px; text-align: center; float: left; border: none; color: white; font-size: 16px; border: none; background: rgb(0, 119, 255);
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 700px)
+{
+    #mbody {
+        width: 1302px;
+        height: 7182px;
+    }
+    #mheader {
+        width: 1302px;
+        height: 264px;
+        background: #0a2344(126, 124, 124);
+    }
+    #logo {
+        float: left;
+        margin-left: 40px;
+        width: 422px;
+        height: 255px;
+        position: relative;
+    }
+    #plane {
+        float: left;
+        width: 323px;
+        height: 149px;
+        margin-top: 15px;
+    }
+    #com {
+        font-family: 'Copperplate' , fantasy;
+        color: #62b5f0;
+        float: left;
+        font-size: 46px;
+        margin-top: 105px;
+    }
+    #exeplore {
+        float: left;
+        margin-top: 20px;
+        height: 78px;
+        width: 209px;
+        color: white;
+        font-size: 30px;
+        background: #003580;
+        border: none;
+        border-right: white 2px solid;
+        cursor: pointer;
+    }
+    #tours {
+        float: left;
+        margin-top: 20px;
+        height: 79px;
+        width: 212px;
+        color: white;
+        font-size: 31px;
+        background: #003580;
+        border: none;
+        cursor: pointer;
+    }
+    #search {
+        width: 367px;
+        float: left;
+        height: 66px;
+        margin-top: 114px;
+        margin-left: 48px;
+        font-size: 26px;
+    }
+    #log {
+        float: right;
+        margin-right: 50px;
+        width: 318px;
+        height: 91px;
+        margin-top: 110px;
+        position: relative;
+    }
+    #reg {
+        width: 153px;
+        height: 74px;
+        background: white;
+        color: #0a2344;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    #login {
+        width: 151px;
+        height: 74px;
+        margin-left: 10px;
+        background: white;
+        color: #003580;
+        border: none;
+        font-size: 33px;
+        cursor: pointer;
+    }
+    #left {
+        width: 986px;
+        height: 354px;
+        float: left;
+        position: relative;
+        top: 6523px;
+        left: 140px;
+    }
+    #chekin {
+        float: left;
+        height: 350px;
+        width: 986px;
+        background: #febb02;
+        position: absolute;
+        top: -100px;
+        left: 0px;
+    }
+    #label1 {
+        font-size: 61px;
+        float: left;
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 600;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    #label2 {
+        float: left;
+        position: absolute;
+        top: 88px;
+        left: 20px;
+        font-size: 30px;
+    }
+    #inpt1 {
+        border: none;
+        height: 63px;
+        width: 440px;
+        float: left;
+        position: absolute;
+        top: 136px;
+        left: 18px;
+        font-size: 25px;
+    }
+    #label3 {
+        float: left;
+        position: absolute;
+        top: 89px;
+        left: 549px;
+        font-size: 30px;
+    }
+    #start5 {
+        width: 440;
+        height: 63;
+        position: absolute;
+        top: 135px;
+        left: 530px;
+        font-size: 25;
+    }
+    #label4 {
+        float: left;
+        position: absolute;
+        top: 206px;
+        left: 551px;
+        font-size: 30px;
+    }
+    #end5 {
+        height: 63px;
+        width: 440px;
+        position: absolute;
+        top: 247px;
+        left: 531px;
+        font-size: 25px;
+    }
+    #chekk {
+        width: 44px;
+        position: absolute;
+        top: 215px;
+        left: 18px;
+        height: 32px;
+    }
+    #label5 {
+        float: left;
+        position: absolute;
+        top: 216px;
+        left: 85px;
+        font-size: 30;
+    }
+    #search2 {
+        width: 277px;
+        height: 74px;
+        font-size: 36px;
+        position: absolute;
+        top: 270px;
+        left: 28px;
+        background: #003580;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    #body {
+        width: 1271px;
+        height: 6506px;
+        float: left;
+        margin-left: 20px;
+        position: absolute;
+    }
+    #hbody
+    {
+        width: 1274px;
+        height: 245px;
+        float: left;
+        position: relative;
+    }
+    #starr {
+        width: 219px;
+        margin-left: 92px;
+        margin-top: 5px;
+        height: 66px;
+        float: left;
+    }
+    #hotell {
+        margin-top: 5px;
+        width: 133px;
+        height: 54px;
+        float: left;
+        background: gray;
+        color: white;
+        text-align: center;
+        font-size: 41px;
+    }
+    #h1 {
+        float: left;
+        font-size: 49px;
+        margin-left: 10px;
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+        font-weight: bold;
+    }
+    #btn1 {
+        cursor: pointer;
+        width: 188px;
+        height: 95px;
+        float: right;
+        border: none;
+        color: white;
+        background: rgb(74, 74, 197);
+        margin-top: 105px;
+        font-size: 34px;
+    }
+    #logoo {
+        float: left;
+        position: absolute;
+        top: 70px;
+        left: 27px;
+        width: 71px;
+    }
+    #beachf {
+        background: rgb(144, 144, 255);
+        width: 324px;
+        text-align: center;
+        margin: auto;
+        border-radius: 5px;
+        height: 55px;
+        position: absolute;
+        top: 78px;
+        left: 123px;
+        color: white;
+        font-size: 28px;
+    }
+    #loc {
+        width: 71px;
+        height: 52px;
+        float: left;
+        position: absolute;
+        top: 159px;
+        left: 27px;
+    }
+    #label6 {
+        position: absolute;
+        top: 167px;
+        left: 122px;
+        float: left;
+        cursor: text;
+        font-size: 30px;
+    }
+    #imgs {
+        width: 1302px;
+        height: 790px;
+        float: left;
+        position: relative;
+        margin-top: 10px;
+        margin-left: -20;
+    }
+    #content1 {
+        width: 1261px;
+        height: 5450px;
+        float: left;
+        margin-top: 10px;
+    }
+    #h2 {
+        font-size: 44px;
+        float: left;
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+    #p1 {
+        font-size: 40px;
+        color: rgb(236, 65, 2);
+        float: left;
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+    #p2 {
+        float: left;
+        font-size: 38px;
+    }
+    #p3 {
+        float: left;
+        font-size: 42px;
+        color: rgb(236, 65, 2);
+        margin-top: 30px;
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+    #services {
+        width: 1256px;
+        position: relative;
+        height: 195px;
+        float: left;
+    }
+    #dumb {
+        float: left;
+        height: 86px;
+        width: 86px;
+    }
+    #label7 {
+        margin-top: 30px;
+        margin-left: 6px;
+        float: left;
+        font-size: 28px;
+    }
+    #sstar {
+        margin-left: 80px;
+        float: left;
+        height: 80px;
+        width: 80px;
+    }
+    #label8 {
+        margin-left: 25px;
+        margin-top: 29px;
+        float: left;
+        font-size: 29px;
+    }
+    #bell {
+        float: left;
+        height: 80;
+        margin-left: 100px;
+        width: 80;
+    }
+    #label9 {
+        margin-left: 23px;
+        margin-top: 31px;
+        float: left;
+        font-size: 28px;
+    }
+    #beaach {
+        float: left;
+        height: 80;
+        width: 80;
+        position: absolute;
+        top: 106px;
+        left: 0px;
+    }
+    #label11 {
+        float: left;
+        margin-top: 5px;
+        position: absolute;
+        top: 134px;
+        left: 95px;
+        font-size: 28px;
+    }
+    #wifi {
+        float: left;
+        height: 80;
+        width: 82px;
+        position: absolute;
+        top: 102px;
+        left: 273px;
+    }
+    #label12 {
+        float: left;
+        position: absolute;
+        top: 136px;
+        left: 353px;
+        font-size: 28px;
+    }
+    #barr {
+        float: left;
+        height: 80;
+        width: 80;
+        position: absolute;
+        top: 105px;
+        left: 512px;
+    }
+    #label13 {
+        float: left;
+        position: absolute;
+        top: 135px;
+        left: 597px;
+        font-size: 28px;
+    }
+    #cup {
+        float: left;
+        height: 80;
+        width: 80;
+        position: absolute;
+        top: 93px;
+        left: 678px;
+    }
+    #label14 {
+        float: left;
+        position: absolute;
+        top: 134px;
+        left: 775px;
+        font-size: 28px;
+    }
+    #tbl1 {
+        width: 1262px;
+        height: 50px;
+        float: left;
+        margin-top: 25px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    #td1 {
+        background: rgb(102, 102, 255);
+        color: white;
+        height: 50px;
+        width: 258px;
+    }
+    #td2 {
+        width: 385px;
+        border-right: solid 2px rgb(183, 183, 255);
+    }
+    
+    #tr1 {
+        background: rgb(102, 102, 255);
+        color: white;
+        height: 98px;
+        font-size: 31px;
+    }
+    #pricee {
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        border: none;
+        color: white;
+        background: rgb(102, 102, 255);
+        font-size: 32px;
+    }
+    #person1 {
+        float: left;
+        width: 42px;
+        height: 61px;
+    }
+    #td {
+        width: 178px;
+        border-right: solid 2px rgb(183, 183, 255);
+        height: 156px;
+        font-size: 28px;
+        position: relative;
+    }
+    #label15 {
+        float: left;
+        color: rgb(68, 66, 65);
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 30px;
+    }
+    #labl1 {
+        float: left;
+        color: rgb(68, 66, 65);
+        margin-top: -34px;
+        margin-left: 19px;
+        font-size: 30px;
+    }
+    #label17 {
+        float: left;
+        position: absolute;
+        left: 21px;
+        top: 57px;
+        cursor: text;
+    }
+    #label18 {
+        float: left;
+        color: rgb(68, 66, 65);
+        margin-top: -56px;
+        margin-left: 15px;
+        left: 10px;
+        font-size: 28px;
+    }
+    #label19 {
+        float: left;
+        position: absolute;
+        left: 17px;
+        margin-top: 5px;
+        cursor: text;
+        font-size: 28px;
+    }
+    #label20 {
+        float: left;
+        color: rgb(68, 66, 65);
+        position: absolute;
+        top: 12px;
+        left: 15px;
+    }
+    #label22 {
+        float: left;
+        position: absolute;
+        top: 59px;
+        left: 17px;
+        cursor: text;
+        font-size: 27px;
+    }
+    #label23 {
+        float: left;
+        position: absolute;
+        top: 105px;
+        left: 15px;
+        cursor: text;
+        font-size: 28px;
+    }
+    #label21 {
+        float: left;
+        color: rgb(68, 66, 65);
+        position: absolute;
+        top: 18px;
+        left: 10px;
+        font-size: 28px;
+    }
+    #label24 {
+        float: left;
+        position: absolute;
+        top: 71px;
+        left: 10px;
+        cursor: text;
+        font-size: 29px;
+    }    
+    #start, #end, #start1, #end1, #start2, #end2, #start3, #end3, #start4, #end4 {
+        width: 158px;
+        height: 80px;
+        border: none;
+        font-size: 20px;
+        font-size: 24px;
+    }
+    #hh1 {
+        float: left;
+        font-size: 49.5px;
+        font-family: monospace;
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+    #beach1 {
+        width: 613px;
+        height: 289px;
+        float: left;
+        position: absolute;
+        top: 3743px;
+        border: gray 1px solid;
+    }
+    #hh2 {
+        font-family: monospace;
+        font-size: 37px;
+        margin-left: 10px;
+    }
+    #pp1 {
+        float: left;
+        margin-left: 10px;
+        font-size: 34px;
+    }
+    #beach2 {
+        width: 613px;
+        float: left;
+        border: gray 1px solid;
+        height: 289px;
+        position: absolute;
+        top: 3743px;
+        left: 647px;
+    }
+    #hh3 {
+        float: left;
+        font-size: 27.5px;
+        font-family: monospace;
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+        position: absolute;
+        top: 4021px;
+        font-size: 46px;
+    }
+    #revi {
+        float: left;
+        background: rgb(53, 194, 53);
+        border-radius: 31px;
+        color: white;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 4141px;
+        left: 19px;
+    }
+    #revv1 {
+        font-size: 56px;
+        margin-top: 22px;
+        margin-left: 15px;
+        float: left;
+    }
+    #label25 {
+        cursor: pointer;
+        float: left;
+        font-size: 15px;
+        position: absolute;
+        top: 4161px;
+        left: 157px;
+        font-size: 44px;
+    }
+    #label28 {
+        float: left;
+        position: absolute;
+        top: 4244px;
+        left: 164px;
+        font-size: 33px;
+    }
+    #cat {
+        width: 1255px;
+        height: 400px;
+        float: left;
+        position: absolute;
+        top: 4327px;
+    }
+    #menuu {
+        float: left;
+        font-size: 37px;
+    }
+    #ddivv {
+        float: left;
+        height: 82px;
+        width: 611px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #fdivv {
+        float: left;
+        width: 548px;
+        height: 30px;
+        border-radius: 10px;
+        background: rgb(203, 242, 255);
+        margin-top: 5px;
+    }
+    #revv2 {
+        float: left;
+        margin-left: 22px;
+        margin-top: 6px;
+        font-size: 28px;
+    }
+    #fdivv1 {
+        float: left;
+        width: 500px;
+        height: 30px;
+        border-radius: 10px;
+        background: rgb(112, 224, 112);
+    }
+    #fdivv2 {
+        float: left;
+        width: 455px;
+        height: 30px;
+        border-radius: 10px;
+        background: rgb(112, 224, 112);
+    }
+    #fdivv3 {
+        float: left;
+        width: 461px;
+        height: 30px;
+        border-radius: 10px;
+        background: rgb(112, 224, 112);
+    }
+    #fdivv4 {
+        float: left;
+        width: 461px;
+        height: 30px;
+        border-radius: 10px;
+        background: rgb(112, 224, 112);
+    }
+    #fdivv5 {
+        float: left;
+        width: 431px;
+        height: 30px;
+        border-radius: 10px;
+        background: rgb(112, 224, 112);
+    }
+    #fdivv6 {
+        float: left;
+        width: 530px;
+        height: 30px;
+        border-radius: 10px;
+        background: rgb(112, 224, 112);
+    }
+    #fdivv7 {
+        float: left;
+        width: 455px;
+        height: 30px;
+        border-radius: 10px;
+        background: rgb(112, 224, 112);
+    }
+    #headerr {
+        width: 1256px;
+        height: 504px;
+        float: left;
+        position: absolute;
+        top: 4750px;
+        overflow: hidden;
+    }
+    #text1 {
+        float: left;
+        font-size: 42px;
+        margin-top: -2px;
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+    #boxx1 {
+        float: left;
+        width: 450px;
+        height: 435px;
+        border: 1px solid rgb(185, 184, 184);
+        position: absolute;
+        top: 65px;
+    }
+    #boxx2 {
+        float: left;
+        width: 450px;
+        height: 435px;
+        border: 1px solid rgb(185, 184, 184);
+        position: absolute;
+        top: 65;
+        left: 469px;
+    }
+    #boxx3 {
+        float: left;
+        width: 450px;
+        height: 435px;
+        border: 1px solid rgb(185, 184, 184);
+        position: absolute;
+        top: 64px;
+        left: 939px;
+    }
+    #circle {
+        border-radius: 50%;
+        width: 115px;
+        height: 115px;
+        background: rgb(25, 122, 250);
+        margin-top: 30px;
+        margin-left: 10px;
+        float: left;
+    }
+    #alpha {
+        float: left;
+        text-align: center;
+        margin-top: 12px;
+        margin-left: 28px;
+        font-size: 75px;
+        color: white;
+    }
+    #address {
+        float: left;
+        width: 160px;
+        height: 76px;
+        margin-top: 49px;
+        margin-left: 18px;
+    }
+    #namee {
+        float: left;
+        font-size: 31px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #flag {
+        float: left;
+        position: absolute;
+        top: 98px;
+        left: 148px;
+        width: 40;
+    }
+    #country {
+        float: left;
+        font-size: 20px;
+        margin-left: 56px;
+        margin-top: 9px;
+    }
+    #textbox {
+        width: 395px;
+        float: left;
+        height: 241px;
+        margin-top: 32px;
+        position: absolute;
+        top: 137px;
+        left: 35px;
+    }
+    #text2 {
+        font-size: 33px;
+        color: gray;
+        position: absolute;
+        left: 5px;
+    }
+    #ress {
+        position: absolute;
+        top: 5397px;
+        float: left;
+        width: 950px;
+        height: 70px;
+        font-size: -1px;
+    }
+    #text3 {
+        float: left;
+        font-weight: bold;
+        margin-left: 15px;
+        font-size: 46px;
+        font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+    #places {
+        position: absolute;
+        top: 5485px;
+        float: left;
+        width: 1263px;
+        height: 833px;
+    }
+    #box1 {
+        width: 623px;
+        height: 271px;
+        background: rgb(235, 246, 252);
+        float: left;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 10px;
+        position: relative;
+    }
+    #text4 {
+        font-family: 'Copperplate' , fantasy;
+        float: left;
+        font-size: 50px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    #text5 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 94px;
+        left: 10px;
+    }
+    #text6 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 150px;
+        left: 10px;
+    }
+    #text7 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 207px;
+        left: 10px;
+    }
+    #text8 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 94px;
+        left: 10px;
+    }
+    #text9 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 150px;
+        left: 10;
+    }
+    #text10 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 94px;
+        left: 10px;
+    }
+    #text11 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 150px;
+        left: 10px;
+    }
+    #text12 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 94px;
+        left: 10px;
+    }
+    #text13 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 150px;
+        left: 10px;
+    }
+    #text14 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 208px;
+        left: 10px;
+    }
+    #text15 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 94px;
+        left: 10px;
+    }
+    #text16 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 150px;
+        left: 10px;
+    }
+    #arrow,#arrow1,#arrow2
+    {
+        display: none;
+    }
+    #text17 {
+        float: left;
+        font-size: 36px;
+        position: absolute;
+        top: 213px;
+        left: 10px;
+    }        
+    #bed2, #bed1,#bed3,#bed4,#bed5,#bed6,#bed7
+{
+    display: none;
+}
+    #check {
+        width: 330px;
+        position: absolute;
+        top: 6383px;
+        left: 933px;
+        cursor: pointer;
+        height: 118px;
+        text-align: center;
+        float: left;
+        border: none;
+        color: white;
+        font-size: 32px;
+        background: rgb(0, 119, 255);
+    }
+}
