@@ -1,0 +1,477 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+
+    </head>
+    <script src="script/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $("img[id=img1]:gt(0)").hide();
+            setInterval(function(){$("#img1:first").fadeOut('3000').next().fadeIn('3000').end().appendTo("#imgs")} , 3000); 
+            
+            $("#check").click(function(){
+                $("body").animate({scrollTop:2100},2000);
+                $("#chekin").animate({scrollTop:1000} , 2000);
+            })
+            
+            $('#login').click(function(){
+                window.location = ('log.html');
+            })
+            $('#reg').click(function(){
+                window.location = ('reg.html');
+            })
+        });
+        function f1()
+        {
+            window.location = ('main.html');
+        }
+        function f2()
+        {
+            var date1 = new Date(document.getElementById('end').value);
+            var date2 = new Date(document.getElementById('start').value);
+            document.getElementById('total').innerHTML = "<b>"+((date1.getDate() - date2.getDate())*1500)+"</b>" + (' <b>L.E</b>');
+        }
+        function f3()
+        {
+            var date1 = new Date(document.getElementById('end1').value);
+            var date2 = new Date(document.getElementById('start1').value);
+            document.getElementById('total1').innerHTML = "<b>"+((date1.getDate() - date2.getDate())*1900)+"</b>" + (' <b>L.E</b>');
+        }
+        function f4()
+        {
+            var date1 = new Date(document.getElementById('end2').value);
+            var date2 = new Date(document.getElementById('start2').value);
+            document.getElementById('total2').innerHTML = "<b>"+((date1.getDate() - date2.getDate())*2100)+"</b>" + (' <b>L.E</b>');
+        }
+        function f5()
+        {
+            var date1 = new Date(document.getElementById('end3').value);
+            var date2 = new Date(document.getElementById('start3').value);
+            document.getElementById('total3').innerHTML = "<b>"+((date1.getDate() - date2.getDate())*2200)+"</b>" + (' <b>L.E</b>');
+        }
+        function f6()
+        {
+            var date1 = new Date(document.getElementById('end4').value);
+            var date2 = new Date(document.getElementById('start4').value);
+            document.getElementById('total4').innerHTML = "<b>"+((date1.getDate() - date2.getDate())*1900)+"</b>" + (' <b>L.E</b>');
+        }
+        function f7()
+        {
+            document.getElementById('total').innerHTML = '<input type="button"  value="View Price" style="height: 100%; font-size:32px; width: 100%; cursor: pointer; border: none; color: white; background: rgb(102, 102, 255);" onclick="f2()">';
+
+        }
+        function f8()
+        {
+            document.getElementById('total1').innerHTML = '<input type="button" value="View Price" style="height: 100%; font-size:32px; width: 100%; cursor: pointer; border: none; color: white; background: rgb(102, 102, 255);" onclick="f3()">';
+        }
+        function f9()
+        {
+            document.getElementById('total2').innerHTML = '<input type="button" value="View Price" style="height: 100%; font-size:32px; width: 100%; cursor: pointer; border: none; color: white; background: rgb(102, 102, 255);" onclick="f4()">';
+
+        }
+        function f10()
+        {
+            document.getElementById('total3').innerHTML = '<input type="button" value="View Price" style="height: 100%; font-size:32px; width: 100%; cursor: pointer; border: none; color: white; background: rgb(102, 102, 255);" onclick="f5()">';
+        }
+        function f11()
+        {
+            document.getElementById('total4').innerHTML = '<input type="button" value="View Price" style="height: 100%; font-size:32px; width: 100%; cursor: pointer; border: none; color: white; background: rgb(102, 102, 255);" onclick="f6()">';
+
+        }
+        function f12()
+        {
+            window.location = ('reserv.html');
+        }
+      
+    </script>
+    <style>
+       
+    </style>
+    <body id="mbody">
+        <div id="mheader">
+            <div id="logo">
+                <img id="plane" src="images/main/plane-icon-png-3.png">
+                <label id="com">.com</label>
+                <input type="button" id="exeplore" value="Explore" onclick="f1()">
+                <input type="button" id="tours" value="My Tours">
+            </div>
+            <input type="text" id="search" placeholder="      Tap Here To Search!">
+            <div id="log">
+                <input type="button" id="reg" value="Register">
+                <input type="button" id="login" value="Log In">
+            </div>
+        </div>
+        <div id="left">
+            <div id="chekin">
+                <label id="label1"><b>Search</b></label>
+                <label id="label2">Destination/property name:</label>
+                <input type="text" value="   Alexandria" placeholder="   Alexandria" id="inpt1">
+                <label id="label3">Check-in date</label>
+                <input type="date" id="start5" value="2021-07-01" min="2021-07-01" max="2022-12-31">
+                <label id="label4">Check-put date</label>
+                <input type="date" id="end5" value="2021-07-04" min="2021-07-01" max="2022-12-31">
+
+                <input type="checkbox" id="chekk">
+                <label id="label5">I'm traveling for work</label>
+                <input type="button" id="search2" value="Search" onclick="f20()">
+            </div>
+        </div>
+        <div id="body">
+            <div id="hbody">
+                <div id="hotell">Hotel</div>
+                <h id="h1"><b>Sunrise Alex Avenue Hotel</b></h>
+                <img id="starr" src="images/alex/stars.png">
+                <input type="button" id="btn1" onclick="f12()" value="Reserve">
+                <img src="images/11.png" id="logoo">
+                <div id="beachf">Beachfront · Private Beach</div>
+                <img id="loc" src="images/blue-location-icon-26.png">
+                <label id="label6">Cornish Road, Roushdy, 99998 Alexandria, Egypt </label>
+            </div>
+            <div id="imgs">
+                
+                <img id="img1" src="images/alex/1.jpg" >
+                <img id="img1" src="images/alex/2.jpg" >
+                <img id="img1" src="images/alex/3.jpg" >
+                <img id="img1" src="images/alex/4.jpg" >
+                <img id="img1" src="images/alex/5.jpg" >
+                <img id="img1" src="images/alex/6.jpg" >
+                <img id="img1" src="images/alex/7.jpg" >
+                <img id="img1" src="images/alex/8.jpg" >
+                <img id="img1" src="images/alex/9.jpg" >
+                <img id="img1" src="images/alex/10.jpg" >
+                <img id="img1" src="images/alex/11.jpg" >
+                <img id="img1" src="images/alex/12.jpg" >
+                <img id="img1" src="images/alex/13.jpg" >
+                <img id="img1" src="images/alex/14.jpg" >
+                <img id="img1" src="images/alex/15.jpg" >
+                <img id="img1" src="images/alex/16.jpg" >
+                <img id="img1" src="images/alex/17.jpg" >
+                <img id="img1" src="images/alex/18.jpg" >
+                <img id="img1" src="images/alex/19.jpg" >
+            </div>
+            <div id="content1">
+                <h id="h2"><b>Get the celebrity treatment with world-class service at Sunrise Alex Avenue Hotel</b></h>
+                <p id="p1"><b> One of our top picks in Alexandria.</b></p>
+                <p id="p2">Occupying a sea front location in the middle of Alexandria, SUNRISE Alex Avenue Hotel features a private beach. All rooms boast panoramic views of the Mediterranean Sea. The hotel has 2 outdoor pools and spa.</p>
+                <p id="p2">All rooms and suites at the hotel include a balcony and feature a modern décor. Each suite has a living room, a flat-screen TV and an electric kettle. The bathroom is fitted with bath and hairdryer.</p>
+                <p id="p2">Guests can enjoy an exquisite international cuisine, Lebanese cuisine and an oriental buffet breakfast at Mediterranean Restaurant. Featuring a seafront location, Laguna Terrace offers light snacks. Cocktails are served at Lounge Bar and Montreal.</p>
+                <p id="p2">The hotel has a fully equipped gym with cardiovascular machines and a spa that offers relaxing massage treatments to guests. For more relaxed options: a hot tub and steam room are also available.</p>
+                <p id="p2">SUNRISE Alex Avenue Hotel is located only 1.9 mi from the city center and the stunning Bibliotheca Alexandrina. Alexandria Airport is 6.2 mi drive away. Wi-Fi is available upon request.</p>
+                <p id="p3"><b>Most popular facilities.</b></p>
+                <div id="services">
+                <img src="images/dumbell.png" id="dumb">
+                <label id="label7">Excellent Fitness Center</label>
+                <img src="images/star.png" id="sstar">
+                <label id="label8">Spa</label>
+                <img src="images/bell.png" id="bell">
+                <label id="label9">Room service & Restaurant</label>
+                <img src="images/beach-icon-1.png" id="beaach">
+                <label id="label11">Beachfront</label>
+                <img src="images/Wireless-icon.png" id="wifi">
+                <label id="label12">Free Wifi</label>
+                <img src="images/unnamed.png" id="barr">
+                <label id="label13">Bar</label>
+                <img src="images/cup.png" id="cup">
+                <label id="label14">Excellent Breakfast</label>
+                </div>
+                <table id="tbl1">
+                    <tr id="tr1">
+                        <td id="td1">Sleeps</td>
+                        <td id="td2" >Room Type</td>
+                        <td id="td3">Price Per Night</td>
+                        <td id="td4">Check in Date</td>
+                        <td id="td5">Check Out Date</td>
+                        <td style=" background: rgb(255, 72, 72);">Total Price</td>
+                    </tr>
+                    <tr>
+                      <td id="td">
+                          <img src="images/person.png" id="person1">
+                          <img src="images/person.png" id="person1">
+                          <img src="images/person.png" id="person1">
+                          <label style="float: left; margin-top: 7px; margin-left: 5px;">+</label>
+                          <img src="images/person.png" id="person1">
+                      </td>
+                      <td id="td" >
+                          <img src="images/arrow.png" id="arrow">
+                          <a href="#" id="label15"><b>Standard Room with Sea View</b></a>
+                          <label id="label16">2 Twin Beds</label>
+                          <img src="images/be.png" id="bed1">
+                          <img src="images/be.png" id="bed1">
+                      </td>
+                      <td id="td"><b>1,500 L.E</b></td>
+                      <td id="td"><input type="date" id="start"
+                        value="2021-07-01"
+                        min="2021-07-01" max="2022-12-31" onclick="f7()"></td>
+                        <td id="td"><input type="date" id="end"
+                            value="2021-07-04"
+                            min="2021-07-01" max="2022-12-31" onclick="f7()">
+                        </td>
+                        <td id="total">
+                            <input type="button" value="View Price" id="pricee" onclick="f2()">
+                        </td>
+                    </tr>
+                    <tr style="border-top: solid rgb(183, 183, 255);">
+                        <td id="td">
+                            <img src="images/person.png" id="person1">
+                            <img src="images/person.png" id="person1">
+                            <img src="images/person.png" id="person1">
+                            <label style="float: left; margin-top: 7px; margin-left: 5px;">+</label>
+                            <img src="images/person.png" id="person1">
+                        </td>
+                        <td id="td" >
+                            <img src="images/arrow.png" id="arrow">
+                            <a href="#" id="labl1"><b>Junior Suite</b></a>
+                            <br>
+                            <label id="label17">1 King Bed</label>
+                            <img src="images/be.png" id="bed2">
+                        </td>
+                        <td id="td"><b>1,900 L.E</b></td>
+                        <td id="td"><input type="date" id="start1"
+                          value="2021-07-01"
+                          min="2021-07-01" max="2022-12-31" onclick="f8()"></td>
+                          <td id="td"><input type="date" id="end1"
+                              value="2021-07-04"
+                              min="2021-07-01" max="2022-12-31" onclick="f8()">
+                          </td>
+                          <td id="total1">
+                            <input type="button" value="View Price" id="pricee" onclick="f3()">
+                          </td>
+                      </tr>
+                      <tr style="border-top: solid rgb(183, 183, 255);">
+                        <td id="td">
+                            <img src="images/person.png" id="person1">
+                            <img src="images/person.png" id="person1">
+                            <img src="images/person.png" id="person1">
+                            <label style="float: left; margin-top: 7px; margin-left: 5px;">+</label>
+                            <img src="images/person.png" id="person1">
+                        </td>
+                        <td id="td" >
+                            <img src="images/arrow.png" id="arrow1">
+                            <a href="#" id="label18"><b>Premium Suite</b></a>
+                            <label id="label19">1 King Bed</label>
+                            <img src="images/be.png" id="bed2">
+                        </td>
+                        <td id="td"><b>2,100 L.E</b></td>
+                        <td id="td"><input type="date" id="start2"
+                          value="2021-07-01"
+                          min="2021-07-01" max="2022-12-31" onclick="f9()"></td>
+                          <td id="td"><input type="date" id="end2"
+                              value="2021-07-04"
+                              min="2021-07-01" max="2022-12-31" onload="f9()">
+                          </td>
+                          <td id="total2">
+                            <input type="button" value="View Price" id="pricee" onclick="f4()">
+                          </td>
+                      </tr>
+                      <tr style="border-top: solid rgb(183, 183, 255);">
+                        <td style="width: 150px; border-right: solid 2px rgb(183, 183, 255); height: 90px;">
+                            <img src="images/person.png" id="person1">
+                            <img src="images/person.png" id="person1">
+                            <img src="images/person.png" id="person1">
+                            <img src="images/person.png" id="person1">
+                            <label style="float: left; margin-top: 7px; margin-left: 5px;">+</label>
+                            <img src="images/person.png" id="person1">
+                        </td>
+                        <td id="td" >
+                            <img src="images/arrow.png" id="arrow2">
+                            <a href="#" id="label20"><b>Executive Suite</b></a>
+                            <label id="label22"><b>Bedroom1: </b>1 King Bed</label>
+                            <label id="label23"><b>Bedroom2: </b>2 twin beds</label>
+                            <img src="images/be.png" id="bed3">
+                            <img src="images/be.png" id="bed4">
+                            <img src="images/be.png" id="bed5">
+                        </td>
+                        <td id="td"><b>2,200 L.E</b></td>
+                        <td id="td"><input type="date" id="start3"
+                          value="2021-07-01"
+                          min="2021-07-01" max="2022-12-31" onclick="f10()"></td>
+                          <td id="td"><input type="date" id="end3"
+                              value="2021-07-04"
+                              min="2021-07-01" max="2022-12-31" onclick="f10()">
+                          </td>
+                          <td id="total3">
+                            <input type="button" value="View Price" id="pricee" onclick="f5()">
+                          </td>
+                      </tr>
+                      <tr style="border-top: solid rgb(183, 183, 255); border-bottom: solid rgb(183, 183, 255);">
+                        <td style="width: 150px; border-right: solid 2px rgb(183, 183, 255); height: 50px;">
+                            <img src="images/person.png" id="person1">
+                            <img src="images/person.png" id="person1">
+                            <img src="images/person.png" id="person1">
+                            <label style="float: left; margin-top: 7px; margin-left: 5px;">+</label>
+                            <img src="images/person.png" id="person1">
+                        </td>
+                        <td id="td" >
+                            <img src="images/arrow.png" id="arrow">
+                            <a href="#" id="label21"><b>Deluxe Room</b></a>
+                            <label id="label24">2 twin beds</label>
+                            <img src="images/be.png" id="bed6">
+                            <img src="images/be.png" id="bed7">
+                        </td>
+                        <td id="td"><b>1,900 L.E</b></td>
+                        <td id="td"><input type="date" id="start4"
+                          value="2021-07-01"
+                          min="2021-07-01" max="2022-12-31" onclick="f11()"></td>
+                          <td id="td"><input type="date" id="end4"
+                              value="2021-07-04"
+                              min="2021-07-01" max="2022-12-31" onclick="f11()">
+                          </td>
+                          <td id="total4">
+                            <input type="button" value="View Price" id="pricee" onclick="f6()">
+                          </td>
+                      </tr>
+                </table>
+                <h1 id="hh1">Popular Beaches Nearby</h1>
+            <div id="beaches">
+                <div id="beach1">
+                    <h1 id="hh2">Stanley Beach</h1>
+                    <p id="pp1">Swimming, Water Sports, Food & Drink, Surfing, Watching the Sunset, Seashell collecting 200 m from property</p>
+
+                </div>
+                <div id="beach2">
+                    <h1 id="hh2">Glime Beach</h1>
+                    <p id="pp1">1.4 km from property</p>
+                </div>
+            </div>
+                <h1 id="hh3">Guest reviews</h1>
+                <div id="revi">
+                <label id="revv1"><b>9.2</b></label>
+                </div>
+                <label id="label25">Wonderful . <label id="label26"><b>3,469 reviews</b></label>
+            <label id="label27"> Read All Reviews</label>
+            </label>
+            <label id="label28"><b>Categories: <a href="#" id="label29">Show details</a></b></label>
+            <div id="cat">
+                <div id="ddivv">
+                    <label id="menuu">Staff</label>
+                    <div id="fdivv">
+                        <div id="fdivv1"></div>
+                    </div>
+                    <label id="revv2">9.5</label>
+                </div>
+                <div id="ddivv">
+                    <label id="menuu">Facilities</label>
+                    <div id="fdivv">
+                        <div id="fdivv2"></div>
+                    </div>
+                    <label id="revv2">9.1</label>
+                </div>
+                <div id="ddivv">
+                    <label id="menuu">Cleanliness </label>
+                    <div id="fdivv">
+                        <div id="fdivv3"></div>
+                    </div>
+                    <label id="revv2">9.3</label>
+                </div>
+                <div id="ddivv">
+                    <label id="menuu">Comfort </label>
+                    <div id="fdivv">
+                        <div id="fdivv4"></div>
+                    </div>
+                    <label id="revv2">9.3</label>
+                </div>
+                <div id="ddivv">
+                    <label id="menuu">Value for money </label>
+                    <div id="fdivv">
+                        <div id="fdivv5"></div>
+                    </div>
+                    <label id="revv2">9.0</label>
+                </div>
+                <div id="ddivv">
+                    <label id="menuu">Location </label>
+                    <div id="fdivv">
+                        <div id="fdivv6"></div>
+                    </div>
+                    <label id="revv2">9.8</label>
+                </div>
+                <div id="ddivv">
+                    <label id="menuu">Free WiFi </label>
+                    <div id="fdivv">
+                        <div id="fdivv7"></div>
+                    </div>
+                    <label id="revv2">9.1</label>
+                </div>
+            </div>
+            <div id="headerr">
+                <label id="text1"><b>See what guests loved the most:</b></label>
+                <div id="boxx1">
+                    <div id="circle">
+                        <label id="alpha"><b>B</b></label>
+                    </div>
+                    <div id="address">
+                        <label id="namee"><b>Bashir</b></label>
+                        <img id="flag" src="images/syria.png">
+                        <label id="country">Libya</label>
+                    </div>
+                    <div id="textbox">
+                        <label id="text2">“Thanks sunris, Every things was perfect Speacily Mr adel And reception team”</label>
+                    </div>
+                </div>
+                <div id="boxx2">
+                    <div id="circle">
+                        <label id="alpha"><b>Y</b></label>
+                    </div>
+                    <div id="address">
+                        <label id="namee"><b>Yasser</b></label>
+                        <img id="flag" src="images/saudi.png">
+                        <label id="country">Saudi Arabia</label>
+                    </div>
+                    <div id="textbox">
+                        <label id="text2">“Fabulous location, Wonderful atmosphere, and friendly staff specially,Mr. Khalifa Everything is excellent .”</label>
+                    </div>
+                </div>
+                <div id="boxx3">
+                    <div id="circle">
+                        <label id="alpha"><b>M</b></label>
+                    </div>
+                    <div id="address">
+                        <label id="namee"><b>Mohamed</b></label>
+                        <img id="flag" src="images/egy.png">
+                        <label id="country">Egypt</label>
+                    </div>
+                    <div id="textbox">
+                        <label id="text2">“Beach, swimming pools are clean, Friendly and cooperative Stuff (specially a lady from customer service but I don't remember her name)”</label>
+                    </div>
+                </div>
+
+            </div>
+            <div id="ress">
+                <label id="text3">5 Restaurants On Site</label>
+            </div>
+            <div id="places">
+                <div id="box1">
+                    <label id="text4">Elia</label>
+                    <label id="text5"><b>Food: </b><label style="color: gray;">International</label></label>
+                    <label id="text6"><b>Open For: </b><label style="color: gray;">Breakfast, Lunch, Dinner</label></label>
+                    <label id="text7"><b>Menu: </b><label style="color: gray;">Buffet & À La Carte</label></label>
+                </div>
+                <div id="box1">
+                    <label id="text4">Gamila</label>
+                    <label id="text5"><b>Food: </b><label style="color: gray;">Local</label></label>
+                    <label id="text6"><b>Menu: </b><label style="color: gray;">À la carte</label></label>
+                </div>
+                <div id="box1">
+                    <label id="text4">Lzoya</label>
+                    <label id="text5"><b>Food: </b><label style="color: gray;">International</label></label>
+                    <label id="text6"><b>Menu: </b><label style="color: gray;">À la carte</label></label>
+                </div>
+                <div id="box1">
+                    <label id="text4">Nasaya</label>
+                    <label id="text5"><b>Food: </b><label style="color: gray;">International</label></label>
+                    <label id="text6"><b>Open For: </b><label style="color: gray;">Lunch, Dinner</label></label>
+                    <label id="text7"><b>Menu: </b><label style="color: gray;">À la carte</label></label>
+                </div>
+                <div id="box1">
+                    <label id="text4">Marassi</label>
+                    <label id="text5"><b>Food: </b><label style="color: gray;">Seafood</label></label>
+                    <label id="text6"><b>Open For: </b><label style="color: gray;">Lunch, Dinner</label></label>
+                    <label id="text7"><b>Menu: </b><label style="color: gray;">À la carte</label></label>
+                </div> 
+            </div>
+            <input id="check" type="button" value="Check available dates">
+            
+        </div>
+        </div>
+    </body>
+</html>
